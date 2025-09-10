@@ -1,0 +1,2340 @@
+{
+  "version": "v4.1_grok_v2.0",
+  "timestamp": "2025-09-07T02:29:03.017467",
+  "recommendations": [
+    {
+      "game_id": "TOR_BOS_2025-10-10",
+      "home_team": "TOR",
+      "away_team": "BOS",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.2661507276491073,
+      "kelly_fraction": 0.09221614199631732,
+      "odds": 1.5810783857514257,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TOR_WSH_2025-10-12",
+      "home_team": "TOR",
+      "away_team": "WSH",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.8839403400103856,
+      "kelly_fraction": 0.1315800706843453,
+      "odds": 2.352529826497164,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "WSH_PIT_2025-10-17",
+      "home_team": "WSH",
+      "away_team": "PIT",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 0.5841792028049442,
+      "kelly_fraction": 0.127970775240883,
+      "odds": 1.8987445238053857,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "MTL_TOR_2025-10-12",
+      "home_team": "MTL",
+      "away_team": "TOR",
+      "bet_type": "SPREAD",
+      "confidence": 0.8112722931279612,
+      "expected_value": 1.4218771067748261,
+      "kelly_fraction": 0.14036331659147278,
+      "odds": 2.9852826569942104,
+      "pattern_id": "pattern_31",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8112722931279612,
+        "support": 0.18201230048198064,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.4446612244379238,
+          "back_to_back": 0,
+          "home_advantage": 0.11159973336039919
+        },
+        "variance": 0.14790881538244605,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6708153808280254,
+          "upper": 0.9006727239550022,
+          "margin_error": 0.11492867156348843
+        },
+        "validation_score": 0.06349446064749015
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "FLA_PIT_2025-10-07",
+      "home_team": "FLA",
+      "away_team": "PIT",
+      "bet_type": "SPREAD",
+      "confidence": 0.8112722931279612,
+      "expected_value": 0.503567485460849,
+      "kelly_fraction": 0.11565034092420212,
+      "odds": 1.8533450460432435,
+      "pattern_id": "pattern_31",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8112722931279612,
+        "support": 0.18201230048198064,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.4446612244379238,
+          "back_to_back": 0,
+          "home_advantage": 0.11159973336039919
+        },
+        "variance": 0.14790881538244605,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6708153808280254,
+          "upper": 0.9006727239550022,
+          "margin_error": 0.11492867156348843
+        },
+        "validation_score": 0.06349446064749015
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TOR_TBL_2025-10-01",
+      "home_team": "TOR",
+      "away_team": "TBL",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 0.9655365834735319,
+      "kelly_fraction": 0.1402056403481502,
+      "odds": 2.355826801413346,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "MTL_FLA_2025-10-19",
+      "home_team": "MTL",
+      "away_team": "FLA",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 1.4122261648678283,
+      "kelly_fraction": 0.14701597442694794,
+      "odds": 2.8912140827332933,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "MTL_FLA_2025-10-19",
+      "home_team": "MTL",
+      "away_team": "FLA",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.819023650238708,
+      "kelly_fraction": 0.1296897129602951,
+      "odds": 2.2714665116554142,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "MTL_TBL_2025-10-10",
+      "home_team": "MTL",
+      "away_team": "TBL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.9595767925678125,
+      "kelly_fraction": 0.1335154291448595,
+      "odds": 2.4469792136846604,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TBL_MTL_2025-10-11",
+      "home_team": "TBL",
+      "away_team": "MTL",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 0.6042153075242311,
+      "kelly_fraction": 0.1289152626761267,
+      "odds": 1.9227591327882443,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_TBL_2025-10-02",
+      "home_team": "NYR",
+      "away_team": "TBL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.4342414732248794,
+      "kelly_fraction": 0.1148067924275615,
+      "odds": 1.7315709103857433,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "FLA_WSH_2025-10-25",
+      "home_team": "FLA",
+      "away_team": "WSH",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 1.2563652278003357,
+      "kelly_fraction": 0.14094162833146803,
+      "odds": 2.7241273276528393,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "FLA_NYR_2025-10-10",
+      "home_team": "FLA",
+      "away_team": "NYR",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.9040843791244568,
+      "kelly_fraction": 0.13463379162855624,
+      "odds": 2.298815913054309,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "FLA_NYR_2025-10-10",
+      "home_team": "FLA",
+      "away_team": "NYR",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 1.275886784097671,
+      "kelly_fraction": 0.1453848236993631,
+      "odds": 2.727802233772019,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "MTL_TOR_2025-10-16",
+      "home_team": "MTL",
+      "away_team": "TOR",
+      "bet_type": "SPREAD",
+      "confidence": 0.8112722931279612,
+      "expected_value": 0.39640831378146246,
+      "kelly_fraction": 0.10771259097556932,
+      "odds": 1.7212572469317748,
+      "pattern_id": "pattern_31",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8112722931279612,
+        "support": 0.18201230048198064,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.4446612244379238,
+          "back_to_back": 0,
+          "home_advantage": 0.11159973336039919
+        },
+        "variance": 0.14790881538244605,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6708153808280254,
+          "upper": 0.9006727239550022,
+          "margin_error": 0.11492867156348843
+        },
+        "validation_score": 0.06349446064749015
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_PIT_2025-10-15",
+      "home_team": "NYR",
+      "away_team": "PIT",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.6310504122907203,
+      "kelly_fraction": 0.12593672025634092,
+      "odds": 1.9691798766249011,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "PIT_NYR_2025-10-21",
+      "home_team": "PIT",
+      "away_team": "NYR",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.8854789957613436,
+      "kelly_fraction": 0.13418377517095897,
+      "odds": 2.276353488693017,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "BOS_MTL_2025-10-20",
+      "home_team": "BOS",
+      "away_team": "MTL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.868526856403343,
+      "kelly_fraction": 0.13375973079252756,
+      "odds": 2.2558870387059606,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_MTL_2025-10-14",
+      "home_team": "NYR",
+      "away_team": "MTL",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 1.4938624107424041,
+      "kelly_fraction": 0.14786437670165553,
+      "odds": 2.9890605729055713,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_FLA_2025-10-05",
+      "home_team": "NYR",
+      "away_team": "FLA",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.5508230796842324,
+      "kelly_fraction": 0.12213176035063714,
+      "odds": 1.8723207926054737,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "BOS_NYR_2025-10-09",
+      "home_team": "BOS",
+      "away_team": "NYR",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 1.3559668227550206,
+      "kelly_fraction": 0.14057956352513967,
+      "odds": 2.9419627060687015,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_PIT_2025-10-27",
+      "home_team": "NYR",
+      "away_team": "PIT",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.8069560583251558,
+      "kelly_fraction": 0.1293114201573272,
+      "odds": 2.2563973667851096,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TOR_WSH_2025-10-05",
+      "home_team": "TOR",
+      "away_team": "WSH",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.30398954138661827,
+      "kelly_fraction": 0.09740599719217932,
+      "odds": 1.6283287874898769,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "FLA_MTL_2025-10-08",
+      "home_team": "FLA",
+      "away_team": "MTL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 1.243346489301612,
+      "kelly_fraction": 0.1389673523428,
+      "odds": 2.8013304960711496,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_WSH_2025-10-24",
+      "home_team": "NYR",
+      "away_team": "WSH",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.7962617307039777,
+      "kelly_fraction": 0.12896851051095715,
+      "odds": 2.243043056051992,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_BOS_2025-10-27",
+      "home_team": "NYR",
+      "away_team": "BOS",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.6987506956209553,
+      "kelly_fraction": 0.1286019022444991,
+      "odds": 2.0509149564060776,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "PIT_TBL_2025-10-01",
+      "home_team": "PIT",
+      "away_team": "TBL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.8537541523343304,
+      "kelly_fraction": 0.1307300501635706,
+      "odds": 2.314835476337557,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TOR_WSH_2025-10-09",
+      "home_team": "TOR",
+      "away_team": "WSH",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.42808737915407225,
+      "kelly_fraction": 0.11434099949524576,
+      "odds": 1.724141024643542,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "WSH_NYR_2025-10-11",
+      "home_team": "WSH",
+      "away_team": "NYR",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 0.591848518962196,
+      "kelly_fraction": 0.12833820329171142,
+      "odds": 1.907936711172276,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TBL_FLA_2025-10-02",
+      "home_team": "TBL",
+      "away_team": "FLA",
+      "bet_type": "SPREAD",
+      "confidence": 0.8112722931279612,
+      "expected_value": 0.8345134125810485,
+      "kelly_fraction": 0.1296689187268933,
+      "odds": 2.261279508890725,
+      "pattern_id": "pattern_31",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8112722931279612,
+        "support": 0.18201230048198064,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.4446612244379238,
+          "back_to_back": 0,
+          "home_advantage": 0.11159973336039919
+        },
+        "variance": 0.14790881538244605,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6708153808280254,
+          "upper": 0.9006727239550022,
+          "margin_error": 0.11492867156348843
+        },
+        "validation_score": 0.06349446064749015
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_PIT_2025-10-06",
+      "home_team": "NYR",
+      "away_team": "PIT",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.44564585427461534,
+      "kelly_fraction": 0.111426847156123,
+      "odds": 1.8052190499377794,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "WSH_MTL_2025-10-05",
+      "home_team": "WSH",
+      "away_team": "MTL",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 1.367881254680288,
+      "kelly_fraction": 0.14651726219734149,
+      "odds": 2.838063747702919,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "PIT_WSH_2025-10-23",
+      "home_team": "PIT",
+      "away_team": "WSH",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.7681686793680715,
+      "kelly_fraction": 0.1309360190831991,
+      "odds": 2.134723829289849,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "MTL_FLA_2025-10-16",
+      "home_team": "MTL",
+      "away_team": "FLA",
+      "bet_type": "SPREAD",
+      "confidence": 0.8112722931279612,
+      "expected_value": 0.9480521348508746,
+      "kelly_fraction": 0.13259782766946354,
+      "odds": 2.401230944717608,
+      "pattern_id": "pattern_31",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8112722931279612,
+        "support": 0.18201230048198064,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.4446612244379238,
+          "back_to_back": 0,
+          "home_advantage": 0.11159973336039919
+        },
+        "variance": 0.14790881538244605,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6708153808280254,
+          "upper": 0.9006727239550022,
+          "margin_error": 0.11492867156348843
+        },
+        "validation_score": 0.06349446064749015
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_TBL_2025-10-04",
+      "home_team": "NYR",
+      "away_team": "TBL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8112722931279612,
+      "expected_value": 1.3024961070609682,
+      "kelly_fraction": 0.13887182914066934,
+      "odds": 2.8381298443996013,
+      "pattern_id": "pattern_31",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8112722931279612,
+        "support": 0.18201230048198064,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.4446612244379238,
+          "back_to_back": 0,
+          "home_advantage": 0.11159973336039919
+        },
+        "variance": 0.14790881538244605,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6708153808280254,
+          "upper": 0.9006727239550022,
+          "margin_error": 0.11492867156348843
+        },
+        "validation_score": 0.06349446064749015
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TOR_WSH_2025-10-20",
+      "home_team": "TOR",
+      "away_team": "WSH",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 0.787834127712596,
+      "kelly_fraction": 0.13572219545329045,
+      "odds": 2.1428385459524577,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "MTL_FLA_2025-10-20",
+      "home_team": "MTL",
+      "away_team": "FLA",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.902050918277836,
+      "kelly_fraction": 0.1345853665164882,
+      "odds": 2.2963608999235703,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "BOS_TBL_2025-10-18",
+      "home_team": "BOS",
+      "away_team": "TBL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.965199711990772,
+      "kelly_fraction": 0.13600836091529647,
+      "odds": 2.3726009308113993,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TOR_FLA_2025-10-10",
+      "home_team": "TOR",
+      "away_team": "FLA",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.6917210717571711,
+      "kelly_fraction": 0.12518287859493402,
+      "odds": 2.112500165159452,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TOR_FLA_2025-10-25",
+      "home_team": "TOR",
+      "away_team": "FLA",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.4297341009784521,
+      "kelly_fraction": 0.11016681862029072,
+      "odds": 1.7853495915339734,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "FLA_TBL_2025-10-27",
+      "home_team": "FLA",
+      "away_team": "TBL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 1.4201961016957205,
+      "kelly_fraction": 0.1429240639162322,
+      "odds": 2.921921618751158,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "WSH_TOR_2025-10-10",
+      "home_team": "WSH",
+      "away_team": "TOR",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.30544010575589176,
+      "kelly_fraction": 0.09758946180299714,
+      "odds": 1.630140148429232,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_MTL_2025-10-12",
+      "home_team": "NYR",
+      "away_team": "MTL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.35603517644665295,
+      "kelly_fraction": 0.10807933904371309,
+      "odds": 1.6371518386755373,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_MTL_2025-10-12",
+      "home_team": "NYR",
+      "away_team": "MTL",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 1.471689932890611,
+      "kelly_fraction": 0.14764231825756605,
+      "odds": 2.9624853781133744,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "BOS_WSH_2025-10-28",
+      "home_team": "BOS",
+      "away_team": "WSH",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.43298746264907617,
+      "kelly_fraction": 0.11471264761711873,
+      "odds": 1.7300569336426954,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TBL_MTL_2025-10-04",
+      "home_team": "TBL",
+      "away_team": "MTL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.2534369544271937,
+      "kelly_fraction": 0.09027760007002873,
+      "odds": 1.5652023359229539,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "FLA_PIT_2025-10-16",
+      "home_team": "FLA",
+      "away_team": "PIT",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 1.2323975590747276,
+      "kelly_fraction": 0.13879708428003631,
+      "odds": 2.7876582558308667,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TBL_PIT_2025-10-27",
+      "home_team": "TBL",
+      "away_team": "PIT",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.898239226498601,
+      "kelly_fraction": 0.13449409848255145,
+      "odds": 2.2917590147267637,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TBL_FLA_2025-10-14",
+      "home_team": "TBL",
+      "away_team": "FLA",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 1.382150680430399,
+      "kelly_fraction": 0.14668085737939227,
+      "odds": 2.855166606996172,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_TBL_2025-10-03",
+      "home_team": "NYR",
+      "away_team": "TBL",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 0.3773380853327717,
+      "kelly_fraction": 0.11414659258175529,
+      "odds": 1.6508316371807588,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TBL_BOS_2025-10-07",
+      "home_team": "TBL",
+      "away_team": "BOS",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 1.2000078512984471,
+      "kelly_fraction": 0.14433594772252278,
+      "odds": 2.636856267640394,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_PIT_2025-10-01",
+      "home_team": "NYR",
+      "away_team": "PIT",
+      "bet_type": "SPREAD",
+      "confidence": 0.8112722931279612,
+      "expected_value": 0.6306153458063064,
+      "kelly_fraction": 0.12237122615918487,
+      "odds": 2.0099482746036674,
+      "pattern_id": "pattern_31",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8112722931279612,
+        "support": 0.18201230048198064,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.4446612244379238,
+          "back_to_back": 0,
+          "home_advantage": 0.11159973336039919
+        },
+        "variance": 0.14790881538244605,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6708153808280254,
+          "upper": 0.9006727239550022,
+          "margin_error": 0.11492867156348843
+        },
+        "validation_score": 0.06349446064749015
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "BOS_WSH_2025-10-14",
+      "home_team": "BOS",
+      "away_team": "WSH",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 1.1223306459267026,
+      "kelly_fraction": 0.14313420310872602,
+      "odds": 2.543754951789913,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "BOS_WSH_2025-10-14",
+      "home_team": "BOS",
+      "away_team": "WSH",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 1.4114156527583166,
+      "kelly_fraction": 0.14282822193518566,
+      "odds": 2.911320914306355,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "WSH_BOS_2025-10-23",
+      "home_team": "WSH",
+      "away_team": "BOS",
+      "bet_type": "SPREAD",
+      "confidence": 0.8112722931279612,
+      "expected_value": 0.3710230147633786,
+      "kelly_fraction": 0.10538692680138144,
+      "odds": 1.6899665209534382,
+      "pattern_id": "pattern_31",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8112722931279612,
+        "support": 0.18201230048198064,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.4446612244379238,
+          "back_to_back": 0,
+          "home_advantage": 0.11159973336039919
+        },
+        "variance": 0.14790881538244605,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6708153808280254,
+          "upper": 0.9006727239550022,
+          "margin_error": 0.11492867156348843
+        },
+        "validation_score": 0.06349446064749015
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "MTL_WSH_2025-10-25",
+      "home_team": "MTL",
+      "away_team": "WSH",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.8308534510504928,
+      "kelly_fraction": 0.1327660144724163,
+      "odds": 2.2104036427632345,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "WSH_FLA_2025-10-04",
+      "home_team": "WSH",
+      "away_team": "FLA",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.9014189907438683,
+      "kelly_fraction": 0.1345702803310809,
+      "odds": 2.2955979688860024,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "FLA_NYR_2025-10-04",
+      "home_team": "FLA",
+      "away_team": "NYR",
+      "bet_type": "SPREAD",
+      "confidence": 0.8282891937156489,
+      "expected_value": 0.9934573371572177,
+      "kelly_fraction": 0.13659516497320845,
+      "odds": 2.4067165819400635,
+      "pattern_id": "pattern_12",
+      "pattern_stats": {
+        "sample_size": 98,
+        "win_rate": 0.8282891937156489,
+        "support": 0.200561255156342,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 2.9778599142129165,
+          "back_to_back": 0,
+          "home_advantage": 0.11214524702699927
+        },
+        "variance": 0.1590602601123358,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.7416203493364095,
+          "upper": 0.8901910319485191,
+          "margin_error": 0.07428534130605481
+        },
+        "validation_score": 0.16280026591756414
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 98,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TOR_BOS_2025-10-19",
+      "home_team": "TOR",
+      "away_team": "BOS",
+      "bet_type": "WIN",
+      "confidence": 0.8343298337103284,
+      "expected_value": 0.3022034772276321,
+      "kelly_fraction": 0.10609859081552796,
+      "odds": 1.5607777938811487,
+      "pattern_id": "pattern_40",
+      "pattern_stats": {
+        "sample_size": 31,
+        "win_rate": 0.8343298337103284,
+        "support": 0.19148030695646512,
+        "bet_type": "WIN",
+        "features": {
+          "rest_days": 1.0115880931890118,
+          "back_to_back": 1,
+          "home_advantage": 0.1752496175870932
+        },
+        "variance": 0.1440012503114231,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6686288320829188,
+          "upper": 0.9263050885763036,
+          "margin_error": 0.12883812824669244
+        },
+        "validation_score": 0.049524897125154954
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 31,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "TOR_TBL_2025-10-10",
+      "home_team": "TOR",
+      "away_team": "TBL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.4049055283350196,
+      "kelly_fraction": 0.10806808236662785,
+      "odds": 1.754345447478804,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "NYR_FLA_2025-10-01",
+      "home_team": "NYR",
+      "away_team": "FLA",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 0.3798407910814763,
+      "kelly_fraction": 0.10576682006582275,
+      "odds": 1.723046397965405,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    },
+    {
+      "game_id": "BOS_MTL_2025-10-19",
+      "home_team": "BOS",
+      "away_team": "MTL",
+      "bet_type": "SPREAD",
+      "confidence": 0.8008146459148227,
+      "expected_value": 1.2659086011275553,
+      "kelly_fraction": 0.13931019297219624,
+      "odds": 2.829504446111947,
+      "pattern_id": "pattern_37",
+      "pattern_stats": {
+        "sample_size": 43,
+        "win_rate": 0.8008146459148227,
+        "support": 0.18473227278121201,
+        "bet_type": "SPREAD",
+        "features": {
+          "rest_days": 1.9906291098011626,
+          "back_to_back": 1,
+          "home_advantage": 0.10757131777003565
+        },
+        "variance": 0.12464105020889037,
+        "validated": true,
+        "confidence_interval": {
+          "lower": 0.6591376208038575,
+          "upper": 0.8931505066015843,
+          "margin_error": 0.1170064428988634
+        },
+        "validation_score": 0.0636126131350205
+      },
+      "dynamic_thresholds": {
+        "confidence_used": 0.6881888846195725,
+        "ev_used": 0.07646543162439694
+      },
+      "sample_size": 43,
+      "external_validated": true,
+      "hedging_available": true
+    }
+  ],
+  "performance": {
+    "execution_times": [
+      0.0011248588562011719,
+      0.0010228157043457031,
+      0.001071929931640625,
+      0.0010230541229248047,
+      0.0010030269622802734
+    ],
+    "recommendation_counts": [
+      62
+    ],
+    "dynamic_threshold_history": [],
+    "pattern_validation_results": {
+      "total_patterns": 49,
+      "validated_patterns": 31,
+      "validation_rate": 0.6326530612244898
+    },
+    "hedging_opportunities": [
+      468
+    ],
+    "monte_carlo_convergence": [],
+    "gpu_utilization": []
+  },
+  "config": {
+    "dynamic_thresholds": true,
+    "gpu_acceleration": false,
+    "pattern_validation": true,
+    "hedging_detection": true,
+    "adaptive_monte_carlo": true,
+    "pattern_boost_kelly": true,
+    "performance_target": 0.1,
+    "external_validation": true
+  },
+  "grok_v2_improvements": {
+    "dynamic_thresholds": true,
+    "pattern_validation": true,
+    "hedging_detection": true,
+    "monte_carlo_adaptive": true,
+    "gpu_acceleration_available": false
+  }
+}

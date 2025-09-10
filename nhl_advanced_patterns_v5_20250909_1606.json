@@ -1,0 +1,314 @@
+{
+  "system_info": {
+    "version": "v5.0_advanced_patterns",
+    "generation_timestamp": "2025-09-09T16:06:29.091567",
+    "furious_patterns_enabled": true
+  },
+  "pattern_summary": {
+    "total_games_analyzed": 3,
+    "furious_patterns_detected": 3,
+    "average_quality_score": 0.959,
+    "average_confidence_boost": 0.206
+  },
+  "detailed_analyses": [
+    {
+      "home_team": "TOR",
+      "away_team": "BOS",
+      "game_date": "2025-10-09",
+      "momentum_analysis": {
+        "home": {
+          "momentum_score": 0.8,
+          "trend": "hot_streak",
+          "win_percentage": 0.8,
+          "goal_differential": 6,
+          "confidence_adjustment": 0.12,
+          "games_analyzed": 5
+        },
+        "away": {
+          "momentum_score": 0.6,
+          "trend": "neutral",
+          "win_percentage": 0.6,
+          "goal_differential": 2,
+          "confidence_adjustment": 0,
+          "games_analyzed": 5
+        },
+        "differential": 0.2
+      },
+      "fatigue_analysis": {
+        "home": {
+          "fatigue_score": 0,
+          "performance_penalty": 0,
+          "factors": [],
+          "b2b_detected": false,
+          "travel_hours": 0,
+          "schedule_intensity": 2
+        },
+        "away": {
+          "fatigue_score": 0.29,
+          "performance_penalty": 0.32,
+          "factors": [
+            "back_to_back",
+            "travel_3h",
+            "intensity_3_in_5"
+          ],
+          "b2b_detected": true,
+          "travel_hours": 3,
+          "schedule_intensity": 3
+        },
+        "differential": 0.29
+      },
+      "rivalry_analysis": {
+        "rivalry_detected": false,
+        "category": "none",
+        "intensity": 0.5,
+        "historical_factor": 0.5,
+        "boost_factor": 0,
+        "confidence_boost": 0,
+        "ev_boost": 0
+      },
+      "clutch_analysis": {
+        "clutch_situation_detected": true,
+        "clutch_factors": [
+          "playoff_race"
+        ],
+        "total_clutch_boost": 0.12,
+        "home_clutch_rating": 0.8,
+        "away_clutch_rating": 0.88,
+        "clutch_differential": 0.08
+      },
+      "injury_analysis": {
+        "home": {
+          "injury_impact": 0.045,
+          "severity": "minor",
+          "key_players_out": 1,
+          "positions_affected": [
+            "star_forward"
+          ],
+          "depth_rating": "deep_roster",
+          "performance_penalty": 0.045
+        },
+        "away": {
+          "injury_impact": 0.0,
+          "severity": "minor",
+          "key_players_out": 0,
+          "positions_affected": [],
+          "depth_rating": "average_depth",
+          "performance_penalty": 0.0
+        },
+        "differential": -0.045
+      },
+      "base_confidence": 0.65,
+      "adjusted_confidence": 0.835,
+      "confidence_adjustment": 0.185,
+      "ev_adjustment": 0.017,
+      "pattern_factors": [
+        "momentum_diff_0.20",
+        "fatigue_advantage_0.29",
+        "clutch_situation"
+      ],
+      "furious_pattern_detected": true,
+      "pattern_quality_score": 1.0,
+      "analysis_timestamp": "2025-09-09T16:06:29.056713"
+    },
+    {
+      "home_team": "EDM",
+      "away_team": "COL",
+      "game_date": "2025-10-10",
+      "momentum_analysis": {
+        "home": {
+          "momentum_score": 1,
+          "trend": "hot_streak",
+          "win_percentage": 1.0,
+          "goal_differential": 14,
+          "confidence_adjustment": 0.12,
+          "games_analyzed": 5
+        },
+        "away": {
+          "momentum_score": 0.34,
+          "trend": "neutral",
+          "win_percentage": 0.4,
+          "goal_differential": -5,
+          "confidence_adjustment": 0,
+          "games_analyzed": 5
+        },
+        "differential": 0.66
+      },
+      "fatigue_analysis": {
+        "home": {
+          "fatigue_score": 0.1,
+          "performance_penalty": 0.1,
+          "factors": [
+            "travel_5h"
+          ],
+          "b2b_detected": false,
+          "travel_hours": 5,
+          "schedule_intensity": 2
+        },
+        "away": {
+          "fatigue_score": 0.3,
+          "performance_penalty": 0.33,
+          "factors": [
+            "back_to_back",
+            "intensity_4_in_5"
+          ],
+          "b2b_detected": true,
+          "travel_hours": 2,
+          "schedule_intensity": 4
+        },
+        "differential": 0.2
+      },
+      "rivalry_analysis": {
+        "rivalry_detected": false,
+        "category": "none",
+        "intensity": 0.5,
+        "historical_factor": 0.5,
+        "boost_factor": 0,
+        "confidence_boost": 0,
+        "ev_boost": 0
+      },
+      "clutch_analysis": {
+        "clutch_situation_detected": true,
+        "clutch_factors": [
+          "division_leaders_matchup"
+        ],
+        "total_clutch_boost": 0.1,
+        "home_clutch_rating": 0.85,
+        "away_clutch_rating": 0.9,
+        "clutch_differential": 0.05
+      },
+      "injury_analysis": {
+        "home": {
+          "injury_impact": 0.0,
+          "severity": "minor",
+          "key_players_out": 0,
+          "positions_affected": [],
+          "depth_rating": "average_depth",
+          "performance_penalty": 0.0
+        },
+        "away": {
+          "injury_impact": 0.21,
+          "severity": "major",
+          "key_players_out": 2,
+          "positions_affected": [
+            "top_defenseman",
+            "starting_goalie"
+          ],
+          "depth_rating": "shallow_roster",
+          "performance_penalty": 0.21
+        },
+        "differential": 0.21
+      },
+      "base_confidence": 0.65,
+      "adjusted_confidence": 0.894,
+      "confidence_adjustment": 0.244,
+      "ev_adjustment": 0.012,
+      "pattern_factors": [
+        "momentum_diff_0.66",
+        "fatigue_advantage_0.20",
+        "clutch_situation",
+        "injury_advantage_0.21"
+      ],
+      "furious_pattern_detected": true,
+      "pattern_quality_score": 1.0,
+      "analysis_timestamp": "2025-09-09T16:06:29.085901"
+    },
+    {
+      "home_team": "FLA",
+      "away_team": "NYR",
+      "game_date": "2025-10-11",
+      "momentum_analysis": {
+        "home": {
+          "momentum_score": 0.6,
+          "trend": "neutral",
+          "win_percentage": 0.6,
+          "goal_differential": 2,
+          "confidence_adjustment": 0,
+          "games_analyzed": 5
+        },
+        "away": {
+          "momentum_score": 0.14,
+          "trend": "cold_streak",
+          "win_percentage": 0.2,
+          "goal_differential": -9,
+          "confidence_adjustment": -0.1,
+          "games_analyzed": 5
+        },
+        "differential": 0.46
+      },
+      "fatigue_analysis": {
+        "home": {
+          "fatigue_score": 0,
+          "performance_penalty": 0,
+          "factors": [],
+          "b2b_detected": false,
+          "travel_hours": 0,
+          "schedule_intensity": 1
+        },
+        "away": {
+          "fatigue_score": 0.08,
+          "performance_penalty": 0.08,
+          "factors": [
+            "intensity_3_in_5"
+          ],
+          "b2b_detected": false,
+          "travel_hours": 1,
+          "schedule_intensity": 3
+        },
+        "differential": 0.08
+      },
+      "rivalry_analysis": {
+        "rivalry_detected": false,
+        "category": "none",
+        "intensity": 0.5,
+        "historical_factor": 0.5,
+        "boost_factor": 0,
+        "confidence_boost": 0,
+        "ev_boost": 0
+      },
+      "clutch_analysis": {
+        "clutch_situation_detected": true,
+        "clutch_factors": [
+          "playoff_race"
+        ],
+        "total_clutch_boost": 0.12,
+        "home_clutch_rating": 0.82,
+        "away_clutch_rating": 0.83,
+        "clutch_differential": 0.01
+      },
+      "injury_analysis": {
+        "home": {
+          "injury_impact": 0.024,
+          "severity": "minor",
+          "key_players_out": 1,
+          "positions_affected": [
+            "power_play_specialist"
+          ],
+          "depth_rating": "deep_roster",
+          "performance_penalty": 0.024
+        },
+        "away": {
+          "injury_impact": 0.09,
+          "severity": "moderate",
+          "key_players_out": 1,
+          "positions_affected": [
+            "starting_goalie"
+          ],
+          "depth_rating": "average_depth",
+          "performance_penalty": 0.09
+        },
+        "differential": 0.066
+      },
+      "base_confidence": 0.65,
+      "adjusted_confidence": 0.839,
+      "confidence_adjustment": 0.189,
+      "ev_adjustment": 0,
+      "pattern_factors": [
+        "momentum_diff_0.46",
+        "clutch_situation"
+      ],
+      "furious_pattern_detected": true,
+      "pattern_quality_score": 0.878,
+      "analysis_timestamp": "2025-09-09T16:06:29.088510"
+    }
+  ]
+}

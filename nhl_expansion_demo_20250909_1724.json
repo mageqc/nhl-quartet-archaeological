@@ -1,0 +1,99 @@
+{
+  "report_type": "NHL_EXPANSION_DEMONSTRATION",
+  "timestamp": "20250909_1724",
+  "current_system": {
+    "total_players": 25,
+    "teams_covered": 8,
+    "positions": {
+      "elite_forwards": 15,
+      "elite_defensemen": 6,
+      "elite_goalies": 4
+    },
+    "props_opportunities": 125,
+    "coverage_percentage": 3.3967391304347823,
+    "advantages": [
+      "Joueurs très connus et fiables",
+      "Stats historiques solides",
+      "Médias et analyses disponibles",
+      "Performance consistante"
+    ],
+    "limitations": [
+      "Couverture très limitée (3.4% des joueurs NHL)",
+      "Manque 24 équipes partiellement/complètement",
+      "Aucune analyse joueurs 'sous-évalués'",
+      "Props limitées aux superstars seulement",
+      "Pas de détection patterns ligue complète"
+    ],
+    "betting_impact": {
+      "daily_games_coverage": "~30%",
+      "props_per_game": "2-3 props maximum",
+      "value_detection": "LIMITÉE aux stars",
+      "arbitrage_opportunities": "FAIBLES"
+    }
+  },
+  "expanded_system": {
+    "total_players": 736,
+    "teams_covered": 32,
+    "positions": {
+      "forwards": 384,
+      "defensemen": 192,
+      "goalies": 64,
+      "extras": 96
+    },
+    "props_opportunities": 5888,
+    "coverage_percentage": 100.0,
+    "new_opportunities": [
+      "Props sur TOUS les joueurs NHL",
+      "Détection joueurs sous-évalués par bookmakers",
+      "Analyse complète chemistry lines/pairings",
+      "Patterns équipes complètes (pas que stars)",
+      "Arbitrage sur matchups moins connus",
+      "Props spécialisées (rookies, vétérans, role players)",
+      "Analyse blessures impact sur teammates",
+      "Rotation goalies et backup opportunities"
+    ],
+    "advanced_analytics": [
+      "Corrélations performance entre coéquipiers",
+      "Impact lines changes sur production individuelle",
+      "Analyse depth scoring vs top-6 production",
+      "Props defensemen offensive dans systèmes spécifiques",
+      "Backup goalies performance patterns",
+      "4ème ligne scoring opportunities",
+      "Special teams individual contributions",
+      "Rookie progression tracking"
+    ],
+    "betting_impact": {
+      "daily_games_coverage": "100%",
+      "props_per_game": "15-25 props par match",
+      "value_detection": "MAXIMALE - joueurs sous-radar",
+      "arbitrage_opportunities": "ÉLEVÉES",
+      "edge_sources": [
+        "Bookmakers sous-évaluent role players",
+        "Chemistry nouvelles lignes pas reflétée",
+        "Backup goalies variance élevée",
+        "Rookies progression sous-estimée",
+        "Vétérans streaks fin carrière"
+      ]
+    }
+  },
+  "key_improvements": {
+    "player_coverage": "+711 joueurs",
+    "team_coverage": "+24 équipes",
+    "props_opportunities": "+5763 props",
+    "daily_coverage": "30% → 100% des matchs"
+  },
+  "betting_advantages": [
+    "Props sur joueurs sous-évalués par bookmakers",
+    "Volume betting contrôlé avec variance réduite",
+    "Edge supérieur sur role players vs superstars",
+    "Couverture complète tous matchs NHL",
+    "Détection patterns équipes complètes"
+  ],
+  "implementation_ready": {
+    "database_structure": "READY",
+    "api_connections": "READY",
+    "props_calculation": "READY",
+    "expansion_path": "CLEAR"
+  },
+  "conclusion": "Expansion vers 700+ joueurs transforme système de niche vers couverture NHL complète avec opportunités betting maximisées"
+}

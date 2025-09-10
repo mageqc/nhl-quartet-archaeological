@@ -1,0 +1,221 @@
+{
+  "elite_opportunities_found": 1,
+  "opportunities": [
+    {
+      "matchup": "BOS @ COL",
+      "game_date": "2025-12-20",
+      "composite_result": {
+        "composite_confidence": 0.81,
+        "composite_expected_value": 0.299,
+        "composite_kelly_fraction": 0.1,
+        "confidence_grade": "ELITE",
+        "bet_recommendation": "STRONG_BET",
+        "factor_breakdown": {
+          "Momentum": 1.0,
+          "Fatigue": 0.98,
+          "Rivalry": 0.85,
+          "Clutch": 0.833,
+          "Injuries": 0.917,
+          "Seasonal": 0.375,
+          "Home/Away": 1.0,
+          "EA Sim": 0.5,
+          "Players": 0.75,
+          "Chemistry": 1.0,
+          "Playoffs": 0.333,
+          "Value": 0.9
+        },
+        "strongest_factor": "Momentum",
+        "weakest_factor": "Playoffs",
+        "all_factors": [
+          1.0,
+          0.98,
+          0.8500000000000001,
+          0.8333333333333334,
+          0.9166666666666667,
+          0.3749999999999999,
+          1.0,
+          0.5,
+          0.75,
+          1.0,
+          0.33333333333333337,
+          0.9
+        ],
+        "profit_potential": 29.89,
+        "analysis_components": {
+          "momentum": {
+            "home": {
+              "momentum_score": 0.95,
+              "win_percentage_l10": 1.0,
+              "trend_momentum": 1.0,
+              "goal_differential": 2.1,
+              "momentum_grade": "HOT",
+              "power_play_pct": 0.35,
+              "penalty_kill_pct": 0.87
+            },
+            "away": {
+              "momentum_score": 0.16,
+              "win_percentage_l10": 0.1,
+              "trend_momentum": 0.2,
+              "goal_differential": -1.7,
+              "momentum_grade": "COLD",
+              "power_play_pct": 0.12,
+              "penalty_kill_pct": 0.68
+            }
+          },
+          "fatigue": {
+            "home": {
+              "fatigue_level": 0,
+              "rest_advantage": 0.15,
+              "hours_since_last_game": 96,
+              "back_to_back": false,
+              "travel_miles": 0,
+              "games_density": 1,
+              "fatigue_grade": "FRESH"
+            },
+            "away": {
+              "fatigue_level": 0.48,
+              "rest_advantage": -0.039,
+              "hours_since_last_game": 16,
+              "back_to_back": true,
+              "travel_miles": 3500,
+              "games_density": 4,
+              "fatigue_grade": "TIRED"
+            }
+          },
+          "rivalry": {
+            "rivalry_intensity": 0.65,
+            "rivalry_boost_factor": 1.1,
+            "rivalry_type": "DIVISION_RIVALRY",
+            "intensity_grade": "MEDIUM"
+          },
+          "clutch": {
+            "clutch_rating_home": 0.55,
+            "clutch_rating_away": 0.35,
+            "clutch_advantage": 0.2,
+            "home_late_game_factor": 0.95,
+            "away_late_game_factor": 0.85,
+            "overtime_probability": 0.25
+          },
+          "injuries": {
+            "home": {
+              "key_players_injured": 0,
+              "injury_names": [],
+              "lineup_stability": 1.0,
+              "offensive_impact": 0.0,
+              "defensive_impact": 0.0,
+              "total_injury_impact": 0.0,
+              "injury_severity": "MINOR"
+            },
+            "away": {
+              "key_players_injured": 2,
+              "injury_names": [
+                "Brad Marchand",
+                "David Pastrnak"
+              ],
+              "lineup_stability": 0.6,
+              "offensive_impact": 0.35,
+              "defensive_impact": 0.15,
+              "total_injury_impact": 0.25,
+              "injury_severity": "SEVERE"
+            }
+          },
+          "seasonal": {
+            "home": {
+              "seasonal_period": "MID_SEASON",
+              "seasonal_factor": 0.95,
+              "home_winter_boost": 1.25,
+              "road_fatigue_factor": 0.85,
+              "seasonal_grade": "WEAK"
+            },
+            "away": {
+              "seasonal_period": "MID_SEASON",
+              "seasonal_factor": 1.0,
+              "home_winter_boost": 1.1,
+              "road_fatigue_factor": 0.95,
+              "seasonal_grade": "AVERAGE"
+            }
+          },
+          "home_away": {
+            "home_advantage_factor": 1.25,
+            "away_road_penalty": 0.08,
+            "climate_advantage": 1.08,
+            "total_home_advantage": 0.41,
+            "home_away_score": 1.0
+          },
+          "ea_simulation": {
+            "home_win_probability": 0.657,
+            "expected_total_goals": 5.5,
+            "goal_variance": 19.97,
+            "reliability_score": 0.5,
+            "prediction_confidence": 0.6,
+            "simulation_quality": "LOW"
+          },
+          "player_ratings": {
+            "home_talent_score": 6,
+            "away_talent_score": 1,
+            "talent_advantage": 5,
+            "home_avg_rating": 90,
+            "away_avg_rating": 85,
+            "rating_advantage": 5,
+            "player_ratings_score": 0.75
+          },
+          "team_chemistry": {
+            "home_base_chemistry": 0.95,
+            "away_base_chemistry": 0.65,
+            "home_recent_form": "DOMINANT",
+            "away_recent_form": "TERRIBLE",
+            "home_adjusted_chemistry": 0.95,
+            "away_adjusted_chemistry": 0.65,
+            "chemistry_advantage": 0.3,
+            "team_chemistry_score": 1.0
+          },
+          "playoff_experience": {
+            "home_playoff_experience": 0.8,
+            "away_playoff_experience": 0.9,
+            "experience_advantage": -0.1,
+            "home_pressure_handling": 0.8,
+            "away_pressure_handling": 0.95,
+            "playoff_experience_score": 0.33333333333333337
+          },
+          "betting_value": {
+            "market_home_probability": 0.52,
+            "our_home_probability": 0.712,
+            "probability_difference": 0.192,
+            "value_opportunity": "HIGH_VALUE",
+            "expected_value": 0.369,
+            "betting_value_score": 0.9
+          }
+        }
+      },
+      "elite_evaluation": {
+        "is_elite": true,
+        "passed_criteria": 5,
+        "total_criteria": 6,
+        "elite_grade": "ELITE",
+        "criteria_details": {
+          "confidence_80_plus": true,
+          "expected_value_25_plus": true,
+          "kelly_sweet_spot": false,
+          "factors_above_08": 8,
+          "dominant_factor": true,
+          "no_red_flags": true
+        },
+        "confidence_pct": 81.0,
+        "ev_pct": 29.9,
+        "kelly_pct": 10.0,
+        "strongest_factors": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          9,
+          11
+        ],
+        "weakest_factors": []
+      }
+    }
+  ],
+  "analysis_timestamp": "2025-09-09T16:33:20.624165"
+}

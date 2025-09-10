@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏒 NHL Betting Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .header {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ffd700;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid rgba(255,255,255,0.2);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        
+        .stat-card h3 {
+            margin: 0 0 15px 0;
+            color: #ffd700;
+            font-size: 1.2em;
+            border-bottom: 2px solid #ffd700;
+            padding-bottom: 8px;
+        }
+        
+        .big-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 10px 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        
+        .profit-positive { color: #4CAF50; }
+        .profit-negative { color: #f44336; }
+        .roi-good { color: #4CAF50; }
+        .roi-ok { color: #ff9800; }
+        .roi-bad { color: #f44336; }
+        
+        .chart-container {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px;
+            position: relative;
+            height: 400px;
+        }
+        
+        .bets-table {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px;
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: white;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        th {
+            background: rgba(255,215,0,0.2);
+            color: #ffd700;
+            font-weight: bold;
+        }
+        
+        tr:hover {
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .status-won { color: #4CAF50; font-weight: bold; }
+        .status-lost { color: #f44336; font-weight: bold; }
+        .status-pending { color: #ff9800; font-weight: bold; }
+        
+        .update-time {
+            text-align: center;
+            padding: 10px;
+            color: #bbb;
+            font-size: 0.9em;
+        }
+        
+        .refresh-btn {
+            background: #ffd700;
+            color: #1e3c72;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            transition: all 0.3s;
+        }
+        
+        .refresh-btn:hover {
+            background: #ffed4e;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏒 NHL BETTING DASHBOARD</h1>
+        <p>Suivi temps réel de tes performances betting NHL</p>
+        <button class="refresh-btn" onclick="location.reload()">🔄 Actualiser</button>
+    </div>
+    
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>💰 Bankroll Actuelle</h3>
+            <div class="big-number profit-positive">
+                1495 CAD
+            </div>
+            <p>Départ: 1,000 CAD</p>
+        </div>
+        
+        <div class="stat-card">
+            <h3>📊 ROI Cumulatif</h3>
+            <div class="big-number roi-good">
+                49.5%
+            </div>
+            <p>Profit: 495 CAD</p>
+        </div>
+        
+        <div class="stat-card">
+            <h3>🎯 Taux de Réussite</h3>
+            <div class="big-number roi-good">
+                64.0%
+            </div>
+            <p>105/189 bets gagnés</p>
+        </div>
+        
+        <div class="stat-card">
+            <h3>🎲 Total Misé</h3>
+            <div class="big-number">
+                8002 CAD
+            </div>
+            <p>Sur 189 paris</p>
+        </div>
+    </div>
+    
+    <div class="chart-container">
+        <canvas id="roiChart"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <canvas id="bankrollChart"></canvas>
+    </div>
+    
+    <div class="bets-table">
+        <h3>🎯 Props Récentes/Actives</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Joueur</th>
+                    <th>Équipe</th>
+                    <th>Prop</th>
+                    <th>Ligne</th>
+                    <th>Cotes</th>
+                    <th>Mise</th>
+                    <th>Conf.</th>
+                    <th>Kelly</th>
+                    <th>Statut</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="update-time">
+        Dernière mise à jour: 2025-09-09 17:36:22
+    </div>
+    
+    <script>
+        // Graphique ROI
+        const roiCtx = document.getElementById('roiChart').getContext('2d');
+        new Chart(roiCtx, {
+            type: 'line',
+            data: {
+                labels: ["2025-08-10", "2025-08-11", "2025-08-12", "2025-08-13", "2025-08-14", "2025-08-15", "2025-08-16", "2025-08-17", "2025-08-18", "2025-08-19", "2025-08-20", "2025-08-21", "2025-08-22", "2025-08-23", "2025-08-24", "2025-08-25", "2025-08-26", "2025-08-27", "2025-08-28", "2025-08-29", "2025-08-30", "2025-08-31", "2025-09-01", "2025-09-02", "2025-09-03", "2025-09-04", "2025-09-05", "2025-09-06", "2025-09-07", "2025-09-08"],
+                datasets: [{
+                    label: 'ROI Cumulatif (%)',
+                    data: [-3.8181818181818246, -4.472727272727274, -8.84545454545455, -9.881818181818188, -7.3999999999999995, -1.2181818181818242, 8.84545454545455, 14.954545454545451, 18.472727272727273, 17.672727272727276, 12.35454545454545, 11.1, 14.090909090909099, 12.34545454545455, 15.018181818181825, 20.109090909090924, 23.054545454545472, 22.381818181818197, 25.14545454545457, 31.52727272727275, 26.436363636363648, 24.94545454545455, 27.23636363636365, 33.4909090909091, 28.690909090909102, 27.87272727272728, 31.218181818181822, 38.90909090909092, 41.963636363636375, 49.53636363636365],
+                    borderColor: '#ffd700',
+                    backgroundColor: 'rgba(255, 215, 0, 0.1)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '📈 Évolution ROI (30 derniers jours)',
+                        color: '#ffd700',
+                        font: { size: 16 }
+                    },
+                    legend: { 
+                        labels: { color: 'white' }
+                    }
+                },
+                scales: {
+                    x: { 
+                        ticks: { color: 'white' },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    },
+                    y: { 
+                        ticks: { 
+                            color: 'white',
+                            callback: function(value) { return value + '%'; }
+                        },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
+        
+        // Graphique Bankroll
+        const bankrollCtx = document.getElementById('bankrollChart').getContext('2d');
+        new Chart(bankrollCtx, {
+            type: 'line',
+            data: {
+                labels: ["2025-08-10", "2025-08-11", "2025-08-12", "2025-08-13", "2025-08-14", "2025-08-15", "2025-08-16", "2025-08-17", "2025-08-18", "2025-08-19", "2025-08-20", "2025-08-21", "2025-08-22", "2025-08-23", "2025-08-24", "2025-08-25", "2025-08-26", "2025-08-27", "2025-08-28", "2025-08-29", "2025-08-30", "2025-08-31", "2025-09-01", "2025-09-02", "2025-09-03", "2025-09-04", "2025-09-05", "2025-09-06", "2025-09-07", "2025-09-08"],
+                datasets: [{
+                    label: 'Bankroll (CAD)',
+                    data: [961.8181818181818, 955.2727272727273, 911.5454545454545, 901.1818181818181, 926.0, 987.8181818181818, 1088.4545454545455, 1149.5454545454545, 1184.7272727272727, 1176.7272727272727, 1123.5454545454545, 1111.0, 1140.909090909091, 1123.4545454545455, 1150.1818181818182, 1201.0909090909092, 1230.5454545454547, 1223.818181818182, 1251.4545454545457, 1315.2727272727275, 1264.3636363636365, 1249.4545454545455, 1272.3636363636365, 1334.909090909091, 1286.909090909091, 1278.7272727272727, 1312.1818181818182, 1389.0909090909092, 1419.6363636363637, 1495.3636363636365],
+                    borderColor: '#4CAF50',
+                    backgroundColor: 'rgba(76, 175, 80, 0.1)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '💰 Évolution Bankroll (30 derniers jours)',
+                        color: '#4CAF50',
+                        font: { size: 16 }
+                    },
+                    legend: { 
+                        labels: { color: 'white' }
+                    }
+                },
+                scales: {
+                    x: { 
+                        ticks: { color: 'white' },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    },
+                    y: { 
+                        ticks: { 
+                            color: 'white',
+                            callback: function(value) { return value + ' CAD'; }
+                        },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
+        
+        // Auto-refresh toutes les 5 minutes
+        setTimeout(() => location.reload(), 300000);
+    </script>
+</body>
+</html>
+        

@@ -1,0 +1,103 @@
+# 🏛️ NHL Quartet Archaeological System - Git Ignore 💎
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Database temporary files (keep the main .db files for archaeological treasures)
+*.db-journal
+*.db-shm
+*.db-wal
+
+# JSON data files (these are generated dynamically)
+quartet_app_data.json
+*_temp.json
+*_backup.json
+
+# Large data files (> 1MB) - regenerate as needed
+data/calendrier_valeurs_sures_*.json
+data/nhl_official_schedule_*.json
+data/SYSTÈME_UNIFIÉ_ULTIMATE_*.json
+*.json
+nhl_calendar_enhanced_logos.html
+
+# HTML temporary files
+*_temp.html
+*_backup.html
+
+# Archaeological discoveries cache (regenerate as needed)
+*_cache.json
+*_temp_analysis.json
+
+# Node modules (if any web dependencies are added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Keep important files (whitelist)
+!archaeological_nhl_system.db
+!*.md
+!*.py
+!*.html
+!*.json
+!requirements.txt

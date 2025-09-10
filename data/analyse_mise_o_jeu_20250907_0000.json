@@ -1,0 +1,213 @@
+{
+  "news_summary": [
+    {
+      "title": "Connor McDavid: Entraînement complet, prêt pour l'ouverture",
+      "impact": "POSITIF",
+      "teams": [
+        "EDM"
+      ],
+      "confidence": "CONFIRMÉ",
+      "date": "05/09/2025",
+      "analysis": "Aucune séquelle de blessure, forme optimale"
+    },
+    {
+      "title": "Auston Matthews: Nouveau contrat record signé (60M$ x 4 ans)",
+      "impact": "POSITIF",
+      "teams": [
+        "TOR"
+      ],
+      "confidence": "CONFIRMÉ",
+      "date": "04/09/2025",
+      "analysis": "Motivation maximale, leadership renforcé"
+    },
+    {
+      "title": "Carey Price: Retraite officielle confirmée",
+      "impact": "NEUTRE",
+      "teams": [
+        "MTL"
+      ],
+      "confidence": "CONFIRMÉ",
+      "date": "01/09/2025",
+      "analysis": "Déjà intégré dans les cotes, pas d'ajustement"
+    },
+    {
+      "title": "⚠️ RUMEUR: Possible échange Erik Karlsson vers Boston",
+      "impact": "INCERTAIN",
+      "teams": [
+        "PIT",
+        "BOS"
+      ],
+      "confidence": "RUMEUR",
+      "date": "06/09/2025",
+      "analysis": "À surveiller, pourrait affecter cotes division"
+    }
+  ],
+  "value_opportunities": [
+    {
+      "market": "Coupe Stanley",
+      "selection": "Ottawa Senators",
+      "odds": 100.0,
+      "p_imp": 0.01,
+      "p_adj": 0.15,
+      "value": 0.13999999999999999,
+      "category": "BOLD",
+      "justification": "Analyse statistique favorable",
+      "bet_type": "futures"
+    },
+    {
+      "market": "Coupe Stanley",
+      "selection": "Philadelphia Flyers",
+      "odds": 50.0,
+      "p_imp": 0.02,
+      "p_adj": 0.15,
+      "value": 0.13,
+      "category": "BOLD",
+      "justification": "Analyse statistique favorable",
+      "bet_type": "futures"
+    },
+    {
+      "market": "Coupe Stanley",
+      "selection": "Winnipeg Jets",
+      "odds": 35.0,
+      "p_imp": 0.02857142857142857,
+      "p_adj": 0.15,
+      "value": 0.12142857142857143,
+      "category": "BOLD",
+      "justification": "Analyse statistique favorable",
+      "bet_type": "futures"
+    },
+    {
+      "market": "Coupe Stanley",
+      "selection": "New Jersey Devils",
+      "odds": 30.0,
+      "p_imp": 0.03333333333333333,
+      "p_adj": 0.15,
+      "value": 0.11666666666666667,
+      "category": "BOLD",
+      "justification": "Analyse statistique favorable",
+      "bet_type": "futures"
+    },
+    {
+      "market": "Division Pacifique",
+      "selection": "San Jose Sharks",
+      "odds": 30.0,
+      "p_imp": 0.03333333333333333,
+      "p_adj": 0.15,
+      "value": 0.11666666666666667,
+      "category": "BOLD",
+      "justification": "Analyse statistique favorable",
+      "bet_type": "futures"
+    },
+    {
+      "market": "Hart Trophy",
+      "selection": "Connor McDavid",
+      "odds": 3.5,
+      "p_imp": 0.2857142857142857,
+      "p_adj": 0.4,
+      "value": 0.11428571428571432,
+      "category": "MID",
+      "justification": "Santé confirmée, form optimale, leadership naturel + Aucune séquelle de blessure, forme optimale",
+      "bet_type": "futures"
+    },
+    {
+      "market": "Division Centrale",
+      "selection": "Chicago Blackhawks",
+      "odds": 25.0,
+      "p_imp": 0.04,
+      "p_adj": 0.15,
+      "value": 0.10999999999999999,
+      "category": "BOLD",
+      "justification": "Analyse statistique favorable",
+      "bet_type": "futures"
+    },
+    {
+      "market": "Hart Trophy",
+      "selection": "Quinn Hughes",
+      "odds": 25.0,
+      "p_imp": 0.04,
+      "p_adj": 0.15,
+      "value": 0.10999999999999999,
+      "category": "BOLD",
+      "justification": "Analyse statistique favorable",
+      "bet_type": "futures"
+    },
+    {
+      "market": "Coupe Stanley",
+      "selection": "Vancouver Canucks",
+      "odds": 20.0,
+      "p_imp": 0.05,
+      "p_adj": 0.15,
+      "value": 0.09999999999999999,
+      "category": "BOLD",
+      "justification": "Analyse statistique favorable",
+      "bet_type": "futures"
+    },
+    {
+      "market": "Division Métropolitaine",
+      "selection": "Columbus Blue Jackets",
+      "odds": 20.0,
+      "p_imp": 0.05,
+      "p_adj": 0.15,
+      "value": 0.09999999999999999,
+      "category": "BOLD",
+      "justification": "Analyse statistique favorable",
+      "bet_type": "futures"
+    }
+  ],
+  "opening_plan": {
+    "total_budget": 20.0,
+    "bets": [],
+    "total_staked": 0,
+    "message": "Aucune opportunité d'ouverture identifiée avec value suffisante"
+  },
+  "futures_plan": {
+    "total_budget": 20.0,
+    "bets": [
+      {
+        "selection": "Connor McDavid",
+        "market": "Hart Trophy",
+        "odds": 3.5,
+        "stake": 4.0,
+        "potential_win": 14.0,
+        "value": 0.11428571428571432,
+        "category": "MID",
+        "justification": "Santé confirmée, form optimale, leadership naturel + Aucune séquelle de blessure, forme optimale"
+      },
+      {
+        "selection": "Auston Matthews",
+        "market": "Hart Trophy",
+        "odds": 5.0,
+        "stake": 4.0,
+        "potential_win": 20.0,
+        "value": 0.09500000000000003,
+        "category": "MID",
+        "justification": "Nouveau contrat record, motivation maximale + Motivation maximale, leadership renforcé"
+      },
+      {
+        "selection": "Ottawa Senators",
+        "market": "Coupe Stanley",
+        "odds": 100.0,
+        "stake": 4.0,
+        "potential_win": 400.0,
+        "value": 0.13999999999999999,
+        "category": "BOLD",
+        "justification": "Analyse statistique favorable"
+      }
+    ],
+    "total_staked": 12.0,
+    "remaining": 8.0
+  },
+  "expected_returns": {
+    "opening_expected": 0,
+    "futures_expected": 5615.099999999999,
+    "total_expected": 5615.099999999999,
+    "total_staked": 12.0,
+    "roi_percentage": 46792.49999999999
+  },
+  "risk_assessment": {
+    "risk_level": "AGRESSIF",
+    "confidence": 55,
+    "avg_odds": 36.166666666666664,
+    "avg_value": 0.11642857142857144
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "nhl_calendar_v48": {
+    "summary": {
+      "total_recommendations": 3,
+      "weeks_covered": 2,
+      "total_potential_profit": 112.8,
+      "high_priority_count": 0
+    },
+    "weekly_calendar": {
+      "semaine_1": [
+        {
+          "date": "2025-10-09",
+          "matchup": "NYR @ FLA",
+          "bet": "PROP",
+          "confidence": "61.4%",
+          "expected_value": "+0.05",
+          "profit_potential": "$35.20",
+          "risk": "HIGH",
+          "priority": 3
+        }
+      ],
+      "semaine_3": [
+        {
+          "date": "2025-10-22",
+          "matchup": "CAR @ TOR",
+          "bet": "PROP",
+          "confidence": "65.2%",
+          "expected_value": "+0.05",
+          "profit_potential": "$40.80",
+          "risk": "HIGH",
+          "priority": 3
+        },
+        {
+          "date": "2025-10-23",
+          "matchup": "EDM @ BOS",
+          "bet": "PROP",
+          "confidence": "62.5%",
+          "expected_value": "+0.05",
+          "profit_potential": "$36.80",
+          "risk": "HIGH",
+          "priority": 3
+        }
+      ]
+    }
+  }
+}

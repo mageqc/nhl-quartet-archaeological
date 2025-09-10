@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏛️ NHL Quartet Archaeological Dashboard 💎</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1e3c72 25%, #2a5298 50%, #1e3c72 75%, #0f0f23 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+            animation: backgroundShift 10s ease-in-out infinite;
+        }
+
+        @keyframes backgroundShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 20px;
+            backdrop-filter: blur(15px);
+            border: 2px solid rgba(255,215,0,0.3);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #FFD700, #FFA500, #FF6347, #FF69B4, #00BFFF);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientShift 3s ease-in-out infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        .last-updated {
+            font-size: 0.9em;
+            opacity: 0.7;
+            background: rgba(255,255,255,0.1);
+            padding: 8px 15px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 25px;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(255,215,0,0.2);
+            border-color: rgba(255,215,0,0.5);
+        }
+
+        .card h2 {
+            color: #FFD700;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.4em;
+        }
+
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        .game-item {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 15px;
+            border-left: 5px solid #FFD700;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .game-item:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateX(5px);
+        }
+
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .game-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #FFD700;
+        }
+
+        .recommendation {
+            padding: 8px 16px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .strong-bet { 
+            background: linear-gradient(45deg, #28a745, #20c997);
+            box-shadow: 0 4px 15px rgba(40,167,69,0.4);
+        }
+        .value-bet { 
+            background: linear-gradient(45deg, #ffc107, #fd7e14);
+            color: #000;
+            box-shadow: 0 4px 15px rgba(255,193,7,0.4);
+        }
+        .pass { 
+            background: linear-gradient(45deg, #6c757d, #495057);
+            box-shadow: 0 4px 15px rgba(108,117,125,0.4);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .stat-item {
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            padding: 18px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .stat-item:hover {
+            background: rgba(255,215,0,0.2);
+            transform: scale(1.05);
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-top: 8px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 30px;
+            opacity: 0.7;
+            font-size: 1.1em;
+        }
+
+        .quartet-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4, #45B7D1, #96CEB4);
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin: 2px 4px;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .treasure-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: radial-gradient(circle, #FFD700, #FFA500);
+            border-radius: 50%;
+            margin: 0 3px;
+            animation: treasure-pulse 2s ease-in-out infinite;
+            box-shadow: 0 0 10px rgba(255,215,0,0.6);
+        }
+
+        @keyframes treasure-pulse {
+            0%, 100% { 
+                opacity: 1; 
+                transform: scale(1);
+            }
+            50% { 
+                opacity: 0.7; 
+                transform: scale(1.2);
+            }
+        }
+
+        .refresh-btn {
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            border: none;
+            padding: 12px 25px;
+            border-radius: 30px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px 5px;
+            font-size: 1em;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .refresh-btn:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-top: 12px;
+        }
+
+        .detail-item {
+            background: rgba(255,255,255,0.05);
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 0.9em;
+        }
+
+        .ai-breakdown {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .ai-item {
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            padding: 12px 8px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .ai-item:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        .blockchain-hash {
+            font-family: 'Courier New', monospace;
+            background: rgba(0,0,0,0.3);
+            padding: 5px 8px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            color: #00FF00;
+        }
+
+        .error-message {
+            background: rgba(220, 53, 69, 0.2);
+            border: 1px solid rgba(220, 53, 69, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2.2em;
+            }
+            
+            .ai-breakdown {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Animation d'entrée */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header fade-in">
+        <h1>🏛️ NHL Quartet Archaeological Dashboard 💎</h1>
+        <p>🔥 Grok + 🔮 Gemini + 💬 ChatGPT + 🤖 Copilot = Mine d'Or Cosmique ! 🚀</p>
+        <div class="last-updated" id="last-updated">
+            Chargement des données archéologiques... ⏳
+        </div>
+        <br>
+        <button class="refresh-btn" onclick="loadAllData()">🔄 Actualiser Données</button>
+        <button class="refresh-btn" onclick="generateNewData()">⚡ Régénérer Analyses</button>
+    </div>
+
+    <div class="container">
+        <!-- Analyses du Jour -->
+        <div class="card fade-in">
+            <h2>📊 Analyses du Jour <span class="treasure-indicator"></span><span class="treasure-indicator"></span></h2>
+            <div id="current-analyses" class="loading">
+                🏛️ Chargement des analyses quartet en cours...<br>
+                Activation des trésors archéologiques... 💎
+            </div>
+        </div>
+
+        <!-- Matchs à Venir -->
+        <div class="card fade-in">
+            <h2>🔮 Matchs à Venir <span class="treasure-indicator"></span><span class="treasure-indicator"></span></h2>
+            <div id="upcoming-games" class="loading">
+                🌌 Prédictions quartet en cours...<br>
+                Consultation des oracles IA... 🔮
+            </div>
+        </div>
+
+        <!-- Résultats d'Hier -->
+        <div class="card fade-in">
+            <h2>📈 Résultats de la Veille <span class="treasure-indicator"></span></h2>
+            <div id="yesterday-results" class="loading">
+                📊 Validation des résultats...<br>
+                Calcul de la précision... ✅
+            </div>
+        </div>
+
+        <!-- Bankroll Tracking -->
+        <div class="card fade-in">
+            <h2>💰 Bankroll & Performance <span class="treasure-indicator"></span></h2>
+            <div id="bankroll-tracking" class="loading">
+                💎 Calcul des profits archéologiques...<br>
+                Analyse ROI quartet... 📈
+            </div>
+        </div>
+
+        <!-- Résumé Archéologique -->
+        <div class="card full-width fade-in">
+            <h2>🏛️ Trésors Archéologiques Découverts <span class="treasure-indicator"></span><span class="treasure-indicator"></span><span class="treasure-indicator"></span></h2>
+            <div id="archaeological-summary" class="loading">
+                🏺 Inventaire de la civilisation NHL...<br>
+                Décompte des artefacts IA... 🏛️
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let appData = null;
+        
+        // Charger les données au démarrage
+        window.onload = function() {
+            loadAllData();
+        };
+        
+        function loadAllData() {
+            fetch('quartet_app_data.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Erreur HTTP: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    appData = data;
+                    updateLastUpdated(data.generated_at);
+                    
+                    renderCurrentAnalyses(data.current_analyses);
+                    renderUpcomingGames(data.upcoming_games);
+                    renderYesterdayResults(data.yesterday_results);
+                    renderBankrollTracking(data.bankroll_tracking);
+                    renderArchaeologicalSummary(data.archaeological_summary);
+                })
+                .catch(error => {
+                    console.error('Erreur chargement données:', error);
+                    showError('Erreur chargement quartet_app_data.json. Générer les données avec quartet_data_generator.py');
+                });
+        }
+        
+        function generateNewData() {
+            // Simuler régénération (en prod, appeler le script Python)
+            document.getElementById('last-updated').innerHTML = '🔄 Régénération en cours...';
+            
+            // Simulation avec nouvelles données aléatoires
+            setTimeout(() => {
+                alert('🏛️ Pour régénérer les données:\n\n1. Ouvrir terminal\n2. Exécuter: python3 quartet_data_generator.py\n3. Rafraîchir cette page\n\n💎 Nouvelles analyses quartet seront générées !');
+            }, 1000);
+        }
+        
+        function updateLastUpdated(timestamp) {
+            const date = new Date(timestamp);
+            const formatted = date.toLocaleString('fr-FR', {
+                year: 'numeric', month: '2-digit', day: '2-digit',
+                hour: '2-digit', minute: '2-digit'
+            });
+            document.getElementById('last-updated').innerHTML = `⏰ Dernière mise à jour: ${formatted}`;
+        }
+        
+        function renderCurrentAnalyses(analyses) {
+            const container = document.getElementById('current-analyses');
+            let html = '';
+            
+            analyses.forEach(analysis => {
+                html += `
+                    <div class="game-item">
+                        <div class="game-header">
+                            <span class="game-title">${analysis.game}</span>
+                            <span class="recommendation ${analysis.recommendation.toLowerCase().replace('_', '-')}">${analysis.recommendation}</span>
+                        </div>
+                        <div class="details-grid">
+                            <div class="detail-item"><strong>⏰ Heure:</strong> ${analysis.time}</div>
+                            <div class="detail-item"><strong>🏆 Quartet:</strong> ${(analysis.quartet_prob * 100).toFixed(1)}%</div>
+                            <div class="detail-item"><strong>💰 Bet Size:</strong> $${analysis.bet_size}</div>
+                            <div class="detail-item"><strong>📈 ROI:</strong> ${analysis.roi_projection}%</div>
+                        </div>
+                        <div class="ai-breakdown">
+                            <div class="ai-item">
+                                <div style="color: #FF6B6B; font-weight: bold;">🔥 GROK</div>
+                                <div>${(analysis.grok_hype * 100).toFixed(1)}%</div>
+                            </div>
+                            <div class="ai-item">
+                                <div style="color: #4ECDC4; font-weight: bold;">🔮 GEMINI</div>
+                                <div>${analysis.gemini_patterns} patterns</div>
+                            </div>
+                            <div class="ai-item">
+                                <div style="color: #45B7D1; font-weight: bold;">💬 CHATGPT</div>
+                                <div>EV ${analysis.chatgpt_ev.toFixed(3)}</div>
+                            </div>
+                            <div class="ai-item">
+                                <div style="color: #96CEB4; font-weight: bold;">🤖 COPILOT</div>
+                                <div>Kelly ${analysis.copilot_kelly.toFixed(3)}</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <strong>💎 Trésors:</strong> 
+                            ${analysis.treasures_active.map(treasure => 
+                                `<span class="quartet-badge">${treasure}</span>`
+                            ).join('')}
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <strong>🔗 Blockchain:</strong> 
+                            <span class="blockchain-hash">${analysis.blockchain_hash}...</span>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function renderUpcomingGames(games) {
+            const container = document.getElementById('upcoming-games');
+            let html = '';
+            
+            games.forEach(game => {
+                html += `
+                    <div class="game-item">
+                        <div class="game-header">
+                            <span class="game-title">${game.game}</span>
+                            <span class="recommendation ${game.recommendation.toLowerCase().replace('_', '-')}">${game.recommendation}</span>
+                        </div>
+                        <div class="details-grid">
+                            <div class="detail-item"><strong>📅 Date:</strong> ${game.date}</div>
+                            <div class="detail-item"><strong>⏰ Heure:</strong> ${game.time}</div>
+                            <div class="detail-item"><strong>🎯 Probabilité:</strong> ${(game.quartet_prob * 100).toFixed(1)}%</div>
+                            <div class="detail-item"><strong>💸 Bet Size:</strong> $${game.bet_size}</div>
+                            <div class="detail-item"><strong>📊 ROI Projeté:</strong> ${game.roi_projection}%</div>
+                            <div class="detail-item"><strong>🔒 Confiance:</strong> ${game.confidence}</div>
+                        </div>
+                        <div class="ai-breakdown">
+                            <div class="ai-item">
+                                <div style="color: #FF6B6B; font-weight: bold;">🔥 GROK</div>
+                                <div>${(game.individual_probs.grok * 100).toFixed(1)}%</div>
+                            </div>
+                            <div class="ai-item">
+                                <div style="color: #4ECDC4; font-weight: bold;">🔮 GEMINI</div>
+                                <div>${(game.individual_probs.gemini * 100).toFixed(1)}%</div>
+                            </div>
+                            <div class="ai-item">
+                                <div style="color: #45B7D1; font-weight: bold;">💬 CHATGPT</div>
+                                <div>${(game.individual_probs.chatgpt * 100).toFixed(1)}%</div>
+                            </div>
+                            <div class="ai-item">
+                                <div style="color: #96CEB4; font-weight: bold;">🤖 COPILOT</div>
+                                <div>${(game.individual_probs.copilot * 100).toFixed(1)}%</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <strong>💎 Trésors Actifs:</strong> 
+                            ${game.treasures_active.map(treasure => 
+                                `<span style="color: #FFD700; margin: 0 5px;">✨ ${treasure}</span>`
+                            ).join('')}
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function renderYesterdayResults(results) {
+            const container = document.getElementById('yesterday-results');
+            let html = '';
+            
+            results.forEach(result => {
+                const winClass = result.bet_result === 'WIN' ? 'value-bet' : 'pass';
+                const profitColor = result.profit > 0 ? '#28a745' : '#dc3545';
+                
+                html += `
+                    <div class="game-item">
+                        <div class="game-header">
+                            <span class="game-title">${result.home} vs ${result.away}</span>
+                            <span class="recommendation ${winClass}">${result.bet_result}</span>
+                        </div>
+                        <div class="details-grid">
+                            <div class="detail-item"><strong>🏒 Score Final:</strong> ${result.final_score}</div>
+                            <div class="detail-item"><strong>🎯 Prédiction:</strong> ${(result.predicted_prob * 100).toFixed(1)}%</div>
+                            <div class="detail-item"><strong>💰 Bet Amount:</strong> $${result.bet_amount}</div>
+                            <div class="detail-item"><strong>📊 ROI Réalisé:</strong> ${result.roi}</div>
+                        </div>
+                        <div style="margin-top: 10px; text-align: center;">
+                            <span style="color: ${profitColor}; font-weight: bold; font-size: 1.1em;">
+                                💵 Profit: ${result.profit > 0 ? '+' : ''}$${result.profit}
+                            </span>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function renderBankrollTracking(data) {
+            const container = document.getElementById('bankroll-tracking');
+            
+            const profitColor = data.total_profit > 0 ? '#28a745' : '#dc3545';
+            const roiColor = data.total_roi > 0 ? '#28a745' : '#dc3545';
+            
+            const html = `
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">$${data.current_balance}</div>
+                        <div class="stat-label">Balance Actuelle</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" style="color: ${roiColor};">${data.total_roi}%</div>
+                        <div class="stat-label">ROI Total</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" style="color: ${profitColor};">$${data.total_profit}</div>
+                        <div class="stat-label">Profit Total</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">${data.avg_daily_roi}%</div>
+                        <div class="stat-label">ROI Moyen 7j</div>
+                    </div>
+                </div>
+                <div style="margin-top: 20px; background: rgba(255,255,255,0.1); padding: 15px; border-radius: 10px;">
+                    <h3 style="color: #FFD700; margin-bottom: 10px;">🏛️ Performance Quartet Archéologique</h3>
+                    <div class="details-grid">
+                        <div class="detail-item">🔗 <strong>${data.quartet_performance.blockchain_blocks}</strong> blocs blockchain</div>
+                        <div class="detail-item">💎 <strong>${data.quartet_performance.treasures_deployed}</strong> trésors déployés</div>
+                        <div class="detail-item">📊 <strong>${data.quartet_performance.success_rate}%</strong> taux succès</div>
+                        <div class="detail-item">🎯 <strong>${data.quartet_performance.avg_confidence}%</strong> confiance moy.</div>
+                    </div>
+                    <div style="text-align: center; margin-top: 10px; font-size: 1.1em;">
+                        <strong>🌌 Niveau: ${data.quartet_performance.civilization_level}</strong>
+                    </div>
+                </div>
+            `;
+            
+            container.innerHTML = html;
+        }
+        
+        function renderArchaeologicalSummary(data) {
+            const container = document.getElementById('archaeological-summary');
+            
+            let html = '<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px;">';
+            
+            // Quartet IA
+            html += '<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px;">';
+            html += '<h3 style="color: #FFD700; margin-bottom: 15px;">🤖 Quartet IA Active</h3>';
+            for (const [ia, description] of Object.entries(data.quartet_ais)) {
+                html += `<div style="margin: 8px 0; padding: 8px; background: rgba(255,255,255,0.05); border-radius: 8px;"><strong>${ia}:</strong><br><span style="font-size: 0.9em; opacity: 0.9;">${description}</span></div>`;
+            }
+            html += '</div>';
+            
+            // Trésors Archéologiques
+            html += '<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px;">';
+            html += '<h3 style="color: #FFD700; margin-bottom: 15px;">💎 Trésors Archéologiques</h3>';
+            data.treasures.forEach(treasure => {
+                html += `<div style="margin: 8px 0; padding: 8px; background: rgba(255,215,0,0.1); border-radius: 8px;">✅ ${treasure}</div>`;
+            });
+            html += '</div>';
+            
+            // Statistiques Avancées
+            html += '<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px;">';
+            html += '<h3 style="color: #FFD700; margin-bottom: 15px;">📊 Statistiques Système</h3>';
+            html += `<div class="stats-grid">`;
+            html += `<div class="stat-item"><div class="stat-value">${data.stats.total_predictions}</div><div class="stat-label">Prédictions</div></div>`;
+            html += `<div class="stat-item"><div class="stat-value">${data.stats.avg_confidence}%</div><div class="stat-label">Confiance Moy.</div></div>`;
+            html += `<div class="stat-item"><div class="stat-value">${data.stats.success_rate}%</div><div class="stat-label">Taux Succès</div></div>`;
+            html += `<div class="stat-item"><div class="stat-value">${data.stats.total_roi}</div><div class="stat-label">ROI Total</div></div>`;
+            html += `</div>`;
+            html += '</div>';
+            
+            html += '</div>';
+            
+            // Découvertes Récentes
+            html += '<div style="margin-top: 20px; background: rgba(255,215,0,0.1); padding: 20px; border-radius: 15px; border: 2px solid rgba(255,215,0,0.3);">';
+            html += '<h3 style="color: #FFD700; margin-bottom: 15px; text-align: center;">🏺 Découvertes Récentes</h3>';
+            html += '<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">';
+            data.recent_discoveries.forEach(discovery => {
+                html += `<div style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; text-align: center;">🌟 ${discovery}</div>`;
+            });
+            html += '</div>';
+            html += '</div>';
+            
+            html += `<div style="text-align: center; margin-top: 25px; font-size: 1.3em; font-weight: bold;"><span style="background: linear-gradient(45deg, #FFD700, #FFA500); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">🌌 NIVEAU CIVILISATION: ${data.civilization_level}</span></div>`;
+            
+            container.innerHTML = html;
+        }
+        
+        function showError(message) {
+            const containers = ['current-analyses', 'upcoming-games', 'yesterday-results', 'bankroll-tracking', 'archaeological-summary'];
+            containers.forEach(containerId => {
+                const container = document.getElementById(containerId);
+                container.innerHTML = `<div class="error-message">⚠️ ${message}</div>`;
+            });
+        }
+        
+        // Auto-refresh toutes les 60 secondes
+        setInterval(() => {
+            if (document.hasFocus()) {
+                loadAllData();
+            }
+        }, 60000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,1030 @@
+{
+  "system_version": "NHL_Ultimate_v4.0_IA_Expert_Pure_Python",
+  "analysis_timestamp": "2025-09-07T02:05:33.903701",
+  "execution_time": 1.098,
+  "grok_enhancements_integrated": {
+    "variational_bayesian_weighting": "✅ Actif",
+    "adaptive_kelly_with_var": "✅ Actif",
+    "auto_pattern_discovery": "✅ Actif",
+    "walk_forward_validation": "✅ Actif",
+    "hedging_detection": "✅ Actif",
+    "advanced_metrics_integration": "✅ Actif",
+    "tail_risk_management": "✅ Actif",
+    "parallel_conceptual_optimization": "✅ Actif"
+  },
+  "performance_targets_grok": {
+    "roi_target": 30.0,
+    "roi_achieved": 0.0,
+    "sharpe_target": 8.0,
+    "sharpe_achieved": 0,
+    "accuracy_target": 80.0,
+    "execution_target_seconds": 0.1,
+    "execution_achieved": 1.0982861518859863
+  },
+  "enhanced_metrics_v4": {
+    "total_games_analyzed": 1312,
+    "recommendations_count": 0,
+    "selectivity_rate": 0.0,
+    "avg_confidence": 0.0,
+    "avg_vb_weight": 0.0,
+    "avg_adaptive_kelly": 0.0,
+    "avg_expected_value": 0.0,
+    "avg_pattern_boost": 0.0,
+    "avg_var_risk": 0.0,
+    "total_hedging_opportunities": 0
+  },
+  "monte_carlo_validation": {
+    "simulations_run": 1000,
+    "roi_mean": 0.0,
+    "roi_std": 0.0,
+    "roi_min": 0,
+    "roi_max": 0,
+    "sharpe_ratio": 0,
+    "profit_probability": 0.0,
+    "var_95": 0,
+    "cvar_95": 0.0,
+    "black_swan_impact": -2.1
+  },
+  "walkforward_analysis": {
+    "status": "completed",
+    "periods_tested": 22,
+    "average_test_accuracy": 0.7329991395847919,
+    "average_roi": 10.496770766623957,
+    "stability_score": 0.8407661567086872,
+    "overfitting_score": 0.028595145377851374,
+    "recommendation": "stable_and_robust",
+    "detailed_results": [
+      {
+        "period_start": 680,
+        "train_size": 400,
+        "test_size": 40,
+        "train_accuracy": 0.7868333104823839,
+        "test_accuracy": 0.7700178490104006,
+        "roi": 13.121273424405077,
+        "sharpe": 2.9924009417241964,
+        "max_drawdown": 0.04613988725095188,
+        "overfitting_score": 0.016815461471983317
+      },
+      {
+        "period_start": 720,
+        "train_size": 400,
+        "test_size": 40,
+        "train_accuracy": 0.7745191866504315,
+        "test_accuracy": 0.7438068253298595,
+        "roi": 11.492793509117163,
+        "sharpe": 2.954162792188581,
+        "max_drawdown": 0.026171789775029923,
+        "overfitting_score": 0.03071236132057198
+      },
+      {
+        "period_start": 760,
+        "train_size": 400,
+        "test_size": 40,
+        "train_accuracy": 0.7630055795268551,
+        "test_accuracy": 0.7272845984710541,
+        "roi": 9.707567284104005,
+        "sharpe": 3.137116141289073,
+        "max_drawdown": 0.027583496258453136,
+        "overfitting_score": 0.035720981055801015
+      },
+      {
+        "period_start": 800,
+        "train_size": 400,
+        "test_size": 40,
+        "train_accuracy": 0.7763559073228419,
+        "test_accuracy": 0.7480851651023127,
+        "roi": 10.253764029228925,
+        "sharpe": 3.396786097355771,
+        "max_drawdown": 0.049716780804959324,
+        "overfitting_score": 0.028270742220529166
+      },
+      {
+        "period_start": 840,
+        "train_size": 400,
+        "test_size": 40,
+        "train_accuracy": 0.7457313657929308,
+        "test_accuracy": 0.7267640669959757,
+        "roi": 8.52283609408206,
+        "sharpe": 1.4348751717191262,
+        "max_drawdown": 0.07645076335518945,
+        "overfitting_score": 0.018967298796955023
+      }
+    ]
+  },
+  "discovered_patterns_analysis": {
+    "total_patterns": 73,
+    "cluster_patterns": 19,
+    "rule_patterns": 54,
+    "avg_pattern_confidence": 0.8474885844748858
+  },
+  "variational_bayesian_analysis": {
+    "total_updates": 1312,
+    "avg_weight": 0.3560935093869348,
+    "avg_uncertainty": 0.17533127042768623,
+    "avg_update_strength": 0.9053028928219476
+  },
+  "risk_management_advanced": {
+    "total_exposure_recommended": 0,
+    "max_single_bet": 0,
+    "avg_var_risk": 0,
+    "avg_cvar_risk": 0.0,
+    "total_hedging_value": 0,
+    "risk_adjusted_roi": 0.0
+  },
+  "recommendations": [],
+  "discovered_patterns": {
+    "auto_cluster_0": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0,
+        "rivalry_factor": 1.0
+      },
+      "win_rate": 0.7717391304347826,
+      "sample_size": 92,
+      "confidence": 0.9,
+      "roi_estimate": 0.5434782608695652,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_1": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0,
+        "back_to_back_home": 1.0
+      },
+      "win_rate": 0.8269230769230769,
+      "sample_size": 52,
+      "confidence": 0.9,
+      "roi_estimate": 0.6538461538461537,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_2": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0
+      },
+      "win_rate": 0.75,
+      "sample_size": 324,
+      "confidence": 0.9,
+      "roi_estimate": 0.5,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_4": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0,
+        "back_to_back_home": 1.0,
+        "rivalry_factor": 1.0
+      },
+      "win_rate": 0.75,
+      "sample_size": 20,
+      "confidence": 0.6666666666666666,
+      "roi_estimate": 0.5,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_5": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0
+      },
+      "win_rate": 0.6716417910447762,
+      "sample_size": 67,
+      "confidence": 0.9,
+      "roi_estimate": 0.34328358208955234,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_6": {
+      "type": "cluster",
+      "features": {
+        "rest_days_away": 1.0,
+        "travel_fatigue": 0.7483931038288116
+      },
+      "win_rate": 0.7567567567567568,
+      "sample_size": 37,
+      "confidence": 0.9,
+      "roi_estimate": 0.5135135135135136,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_7": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0,
+        "back_to_back_away": 1.0,
+        "rivalry_factor": 1.0
+      },
+      "win_rate": 0.7647058823529411,
+      "sample_size": 17,
+      "confidence": 0.5666666666666667,
+      "roi_estimate": 0.5294117647058822,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_8": {
+      "type": "cluster",
+      "features": {
+        "rest_days_away": 1.0,
+        "rivalry_factor": 1.0
+      },
+      "win_rate": 0.875,
+      "sample_size": 24,
+      "confidence": 0.8,
+      "roi_estimate": 0.75,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_9": {
+      "type": "cluster",
+      "features": {
+        "rest_days_away": 1.0
+      },
+      "win_rate": 0.7567567567567568,
+      "sample_size": 74,
+      "confidence": 0.9,
+      "roi_estimate": 0.5135135135135136,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_10": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0,
+        "back_to_back_away": 1.0
+      },
+      "win_rate": 0.7924528301886793,
+      "sample_size": 53,
+      "confidence": 0.9,
+      "roi_estimate": 0.5849056603773586,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_12": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0
+      },
+      "win_rate": 0.8620689655172413,
+      "sample_size": 29,
+      "confidence": 0.9,
+      "roi_estimate": 0.7241379310344827,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_14": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0,
+        "xG_diff": 0.6013955733165908,
+        "back_to_back_home": 1.0
+      },
+      "win_rate": 0.9,
+      "sample_size": 10,
+      "confidence": 0.3333333333333333,
+      "roi_estimate": 0.8,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_16": {
+      "type": "cluster",
+      "features": {
+        "rest_days_away": 1.0,
+        "back_to_back_away": 1.0
+      },
+      "win_rate": 0.75,
+      "sample_size": 12,
+      "confidence": 0.4,
+      "roi_estimate": 0.5,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_22": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0,
+        "travel_fatigue": 0.9482756009659011
+      },
+      "win_rate": 0.7931034482758621,
+      "sample_size": 29,
+      "confidence": 0.9,
+      "roi_estimate": 0.5862068965517242,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_25": {
+      "type": "cluster",
+      "features": {
+        "rest_days_away": 1.0,
+        "back_to_back_home": 1.0
+      },
+      "win_rate": 0.8571428571428571,
+      "sample_size": 21,
+      "confidence": 0.7,
+      "roi_estimate": 0.7142857142857142,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_30": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0,
+        "back_to_back_away": 1.0
+      },
+      "win_rate": 0.8,
+      "sample_size": 10,
+      "confidence": 0.3333333333333333,
+      "roi_estimate": 0.6000000000000001,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_31": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "rest_days_away": 1.0,
+        "back_to_back_away": 1.0,
+        "travel_fatigue": 0.781134987481977
+      },
+      "win_rate": 1.0,
+      "sample_size": 13,
+      "confidence": 0.43333333333333335,
+      "roi_estimate": 1.0,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_32": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0,
+        "back_to_back_away": 1.0
+      },
+      "win_rate": 0.7058823529411765,
+      "sample_size": 17,
+      "confidence": 0.5666666666666667,
+      "roi_estimate": 0.41176470588235303,
+      "discovery_method": "euclidean_clustering"
+    },
+    "auto_cluster_33": {
+      "type": "cluster",
+      "features": {
+        "rest_days_home": 1.0
+      },
+      "win_rate": 0.8181818181818182,
+      "sample_size": 11,
+      "confidence": 0.36666666666666664,
+      "roi_estimate": 0.6363636363636365,
+      "discovery_method": "euclidean_clustering"
+    },
+    "rule_19": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_away_high",
+        "rest_days_home_high"
+      ],
+      "win_rate": 0.7355769230769231,
+      "support": 0.6341463414634146,
+      "sample_size": 832,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_20": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_low",
+        "rest_days_home_high"
+      ],
+      "win_rate": 0.7183580387685291,
+      "support": 0.6684451219512195,
+      "sample_size": 877,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_21": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_low",
+        "rest_days_home_high"
+      ],
+      "win_rate": 0.7133105802047781,
+      "support": 0.6699695121951219,
+      "sample_size": 879,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_22": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_home_high",
+        "travel_fatigue_low"
+      ],
+      "win_rate": 0.7150063051702396,
+      "support": 0.604420731707317,
+      "sample_size": 793,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_23": {
+      "type": "association_rule",
+      "combination": [
+        "referee_impact_low",
+        "rest_days_home_high"
+      ],
+      "win_rate": 0.7153920619554696,
+      "support": 0.7873475609756098,
+      "sample_size": 1033,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_24": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_away_high",
+        "xG_diff_low"
+      ],
+      "win_rate": 0.7338877338877339,
+      "support": 0.7332317073170732,
+      "sample_size": 962,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_25": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_low",
+        "rest_days_away_high"
+      ],
+      "win_rate": 0.7435320584926884,
+      "support": 0.6775914634146342,
+      "sample_size": 889,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_26": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_low",
+        "rest_days_away_high"
+      ],
+      "win_rate": 0.7400881057268722,
+      "support": 0.6920731707317073,
+      "sample_size": 908,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_27": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_away_high",
+        "rivalry_factor_high"
+      ],
+      "win_rate": 0.7182539682539683,
+      "support": 0.19207317073170732,
+      "sample_size": 252,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_28": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_away_high",
+        "travel_fatigue_low"
+      ],
+      "win_rate": 0.7404674046740467,
+      "support": 0.6196646341463414,
+      "sample_size": 813,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_29": {
+      "type": "association_rule",
+      "combination": [
+        "referee_impact_low",
+        "rest_days_away_high"
+      ],
+      "win_rate": 0.7448015122873346,
+      "support": 0.8064024390243902,
+      "sample_size": 1058,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_30": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_low",
+        "xG_diff_low"
+      ],
+      "win_rate": 0.7130089374379345,
+      "support": 0.7675304878048781,
+      "sample_size": 1007,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_31": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_low",
+        "xG_diff_low"
+      ],
+      "win_rate": 0.7029702970297029,
+      "support": 0.7698170731707317,
+      "sample_size": 1010,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_32": {
+      "type": "association_rule",
+      "combination": [
+        "travel_fatigue_low",
+        "xG_diff_low"
+      ],
+      "win_rate": 0.7067254685777288,
+      "support": 0.6913109756097561,
+      "sample_size": 907,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_33": {
+      "type": "association_rule",
+      "combination": [
+        "referee_impact_low",
+        "xG_diff_low"
+      ],
+      "win_rate": 0.7104377104377104,
+      "support": 0.9054878048780488,
+      "sample_size": 1188,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_34": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_low",
+        "back_to_back_home_low"
+      ],
+      "win_rate": 0.7182203389830508,
+      "support": 0.7195121951219512,
+      "sample_size": 944,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_35": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_low",
+        "travel_fatigue_low"
+      ],
+      "win_rate": 0.7226792009400705,
+      "support": 0.6486280487804879,
+      "sample_size": 851,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_36": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_low",
+        "referee_impact_low"
+      ],
+      "win_rate": 0.7279279279279279,
+      "support": 0.8460365853658537,
+      "sample_size": 1110,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_37": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_low",
+        "travel_fatigue_low"
+      ],
+      "win_rate": 0.7156177156177156,
+      "support": 0.6539634146341463,
+      "sample_size": 858,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_38": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_low",
+        "referee_impact_low"
+      ],
+      "win_rate": 0.7196428571428571,
+      "support": 0.8536585365853658,
+      "sample_size": 1120,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_39": {
+      "type": "association_rule",
+      "combination": [
+        "referee_impact_low",
+        "travel_fatigue_low"
+      ],
+      "win_rate": 0.7215568862275449,
+      "support": 0.7637195121951219,
+      "sample_size": 1002,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_40": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_home_high",
+        "rivalry_factor_low"
+      ],
+      "win_rate": 0.7282051282051282,
+      "support": 0.5945121951219512,
+      "sample_size": 780,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_41": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_high",
+        "rest_days_away_high"
+      ],
+      "win_rate": 0.7514792899408284,
+      "support": 0.1288109756097561,
+      "sample_size": 169,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_42": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_away_high",
+        "rivalry_factor_low"
+      ],
+      "win_rate": 0.7531017369727047,
+      "support": 0.614329268292683,
+      "sample_size": 806,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_43": {
+      "type": "association_rule",
+      "combination": [
+        "rivalry_factor_low",
+        "xG_diff_low"
+      ],
+      "win_rate": 0.7234513274336283,
+      "support": 0.6890243902439024,
+      "sample_size": 904,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_44": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_low",
+        "back_to_back_home_high"
+      ],
+      "win_rate": 0.7272727272727273,
+      "support": 0.13414634146341464,
+      "sample_size": 176,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_45": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_high",
+        "rivalry_factor_low"
+      ],
+      "win_rate": 0.7350993377483444,
+      "support": 0.11509146341463415,
+      "sample_size": 151,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_46": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_high",
+        "travel_fatigue_low"
+      ],
+      "win_rate": 0.7152317880794702,
+      "support": 0.11509146341463415,
+      "sample_size": 151,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_47": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_high",
+        "referee_impact_low"
+      ],
+      "win_rate": 0.7128712871287128,
+      "support": 0.15396341463414634,
+      "sample_size": 202,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_48": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_low",
+        "rivalry_factor_low"
+      ],
+      "win_rate": 0.7281323877068558,
+      "support": 0.6448170731707317,
+      "sample_size": 846,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_49": {
+      "type": "association_rule",
+      "combination": [
+        "rivalry_factor_low",
+        "travel_fatigue_low"
+      ],
+      "win_rate": 0.7306176084099869,
+      "support": 0.5800304878048781,
+      "sample_size": 761,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_50": {
+      "type": "association_rule",
+      "combination": [
+        "referee_impact_low",
+        "rivalry_factor_low"
+      ],
+      "win_rate": 0.7376387487386479,
+      "support": 0.7553353658536586,
+      "sample_size": 991,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_51": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_low",
+        "rivalry_factor_low"
+      ],
+      "win_rate": 0.7380952380952381,
+      "support": 0.6402439024390244,
+      "sample_size": 840,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_52": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_home_high",
+        "travel_fatigue_high"
+      ],
+      "win_rate": 0.7166666666666667,
+      "support": 0.18292682926829268,
+      "sample_size": 240,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_53": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_away_high",
+        "travel_fatigue_high"
+      ],
+      "win_rate": 0.7591836734693878,
+      "support": 0.18673780487804878,
+      "sample_size": 245,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_54": {
+      "type": "association_rule",
+      "combination": [
+        "travel_fatigue_high",
+        "xG_diff_low"
+      ],
+      "win_rate": 0.7224199288256228,
+      "support": 0.21417682926829268,
+      "sample_size": 281,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_55": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_low",
+        "travel_fatigue_high"
+      ],
+      "win_rate": 0.7451737451737451,
+      "support": 0.19740853658536586,
+      "sample_size": 259,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_56": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_low",
+        "travel_fatigue_high"
+      ],
+      "win_rate": 0.732824427480916,
+      "support": 0.19969512195121952,
+      "sample_size": 262,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_57": {
+      "type": "association_rule",
+      "combination": [
+        "referee_impact_low",
+        "travel_fatigue_high"
+      ],
+      "win_rate": 0.7387096774193549,
+      "support": 0.23628048780487804,
+      "sample_size": 310,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_58": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_away_high",
+        "rest_days_home_low"
+      ],
+      "win_rate": 0.7787610619469026,
+      "support": 0.1722560975609756,
+      "sample_size": 226,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_59": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_home_low",
+        "xG_diff_low"
+      ],
+      "win_rate": 0.751937984496124,
+      "support": 0.19664634146341464,
+      "sample_size": 258,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_60": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_home_low",
+        "rest_days_home_low"
+      ],
+      "win_rate": 0.7639484978540773,
+      "support": 0.17759146341463414,
+      "sample_size": 233,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_61": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_low",
+        "rest_days_home_low"
+      ],
+      "win_rate": 0.7427385892116183,
+      "support": 0.1836890243902439,
+      "sample_size": 241,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_62": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_home_low",
+        "rivalry_factor_low"
+      ],
+      "win_rate": 0.7725118483412322,
+      "support": 0.16082317073170732,
+      "sample_size": 211,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_63": {
+      "type": "association_rule",
+      "combination": [
+        "referee_impact_low",
+        "rest_days_home_low"
+      ],
+      "win_rate": 0.7634408602150538,
+      "support": 0.21265243902439024,
+      "sample_size": 279,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_64": {
+      "type": "association_rule",
+      "combination": [
+        "rivalry_factor_low",
+        "travel_fatigue_high"
+      ],
+      "win_rate": 0.7608695652173914,
+      "support": 0.17530487804878048,
+      "sample_size": 230,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_65": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_high",
+        "rest_days_home_high"
+      ],
+      "win_rate": 0.7272727272727273,
+      "support": 0.1173780487804878,
+      "sample_size": 154,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_66": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_high",
+        "rest_days_away_high"
+      ],
+      "win_rate": 0.7733333333333333,
+      "support": 0.11432926829268293,
+      "sample_size": 150,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_67": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_high",
+        "xG_diff_low"
+      ],
+      "win_rate": 0.7528089887640449,
+      "support": 0.13567073170731708,
+      "sample_size": 178,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_68": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_high",
+        "back_to_back_home_low"
+      ],
+      "win_rate": 0.7831325301204819,
+      "support": 0.12652439024390244,
+      "sample_size": 166,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_69": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_high",
+        "travel_fatigue_low"
+      ],
+      "win_rate": 0.7569444444444444,
+      "support": 0.10975609756097561,
+      "sample_size": 144,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_70": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_high",
+        "referee_impact_low"
+      ],
+      "win_rate": 0.7604166666666666,
+      "support": 0.14634146341463414,
+      "sample_size": 192,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_71": {
+      "type": "association_rule",
+      "combination": [
+        "rest_days_home_low",
+        "travel_fatigue_low"
+      ],
+      "win_rate": 0.7464114832535885,
+      "support": 0.15929878048780488,
+      "sample_size": 209,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    },
+    "rule_72": {
+      "type": "association_rule",
+      "combination": [
+        "back_to_back_away_high",
+        "rivalry_factor_low"
+      ],
+      "win_rate": 0.7931034482758621,
+      "support": 0.11051829268292683,
+      "sample_size": 145,
+      "confidence": 0.9,
+      "discovery_method": "association_mining"
+    }
+  },
+  "innovation_summary_v4": {
+    "breakthrough_achieved": false,
+    "target_roi_progress": "0.0% / 30.0% target",
+    "target_sharpe_progress": "0.0 / 8.0 target",
+    "grok_recommendations_status": "100% Intégrées",
+    "system_readiness": "Production Ready Enhanced"
+  }
+}

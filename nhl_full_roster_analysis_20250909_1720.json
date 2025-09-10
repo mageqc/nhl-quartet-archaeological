@@ -1,0 +1,14 @@
+{
+  "total_teams": 32,
+  "total_players": 160,
+  "position_breakdown": {
+    "C": 37,
+    "D": 48,
+    "G": 16,
+    "LW": 30,
+    "RW": 29
+  },
+  "completion_percentage": 21.7,
+  "timestamp": "20250909_1720",
+  "ready_for_api_expansion": true
+}

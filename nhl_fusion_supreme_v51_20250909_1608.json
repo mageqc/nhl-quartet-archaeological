@@ -1,0 +1,209 @@
+{
+  "system_info": {
+    "version": "v5.1_fusion_quantum_supreme",
+    "generation_timestamp": "2025-09-09T16:08:34.688799",
+    "grok_integration": true,
+    "patterns_integration": true,
+    "fusion_enabled": true
+  },
+  "fusion_summary": {
+    "total_games_analyzed": 3,
+    "supreme_recommendations": 0,
+    "average_fusion_confidence": 0.95,
+    "average_systems_agreement": 1.0,
+    "average_roi_projection": 25.4,
+    "average_fun_level": 24.7,
+    "average_variance_reduction": 0.55
+  },
+  "detailed_analyses": [
+    {
+      "game_date": "2025-10-09",
+      "home_team": "TOR",
+      "away_team": "BOS",
+      "grok_analysis": {
+        "confidence": 0.78,
+        "expected_value": 0.15,
+        "career_rating": 0.85,
+        "veteran_percentage": 0.75,
+        "ea_result": "TOR 2-1 BOS (OT)",
+        "reasoning": "V\u00e9t\u00e9rans dominance + Home advantage"
+      },
+      "patterns_analysis": {
+        "confidence_adjustment": 0.185,
+        "ev_adjustment": 0.017,
+        "momentum_diff": 0.2,
+        "fatigue_diff": 0.29,
+        "rivalry_boost": 0.0,
+        "clutch_boost": 0.12,
+        "injury_impact": -0.045,
+        "furious": true,
+        "quality": 1.0,
+        "factors": [
+          "momentum",
+          "fatigue",
+          "clutch"
+        ]
+      },
+      "fusion_metrics": {
+        "fusion_confidence": 0.95,
+        "fusion_expected_value": 0.14679999999999999,
+        "fusion_kelly_fraction": 0.05,
+        "fusion_quality_score": 0.9549999999999998,
+        "systems_agreement_score": 1.0,
+        "confidence_layers_validation": 4,
+        "quantum_bonus_applied": 0.12,
+        "variance_reduction_achieved": 0.6000000000000001,
+        "fun_transcendant_level": 25,
+        "validation_details": {
+          "layers_validated": 4,
+          "total_adjustment": 0.36,
+          "adjustments": [
+            [
+              "veteran_stability",
+              0.08
+            ],
+            [
+              "furious_patterns",
+              0.12
+            ],
+            [
+              "systems_agreement",
+              0.1
+            ],
+            [
+              "multiple_factors",
+              0.06
+            ]
+          ],
+          "validation_strength": 1.0
+        }
+      },
+      "supreme_recommendation": false,
+      "fusion_reasoning": "Accord syst\u00e8mes \u00e9lev\u00e9 + Patterns furieux d\u00e9tect\u00e9s + Dominance v\u00e9t\u00e9rans + Validation multi-couches",
+      "roi_projection": 23.488,
+      "analysis_timestamp": "2025-09-09T16:08:34.680313"
+    },
+    {
+      "game_date": "2025-10-10",
+      "home_team": "EDM",
+      "away_team": "COL",
+      "grok_analysis": {
+        "confidence": 0.82,
+        "expected_value": 0.22,
+        "career_rating": 0.88,
+        "veteran_percentage": 0.8,
+        "ea_result": "EDM 3-1 COL",
+        "reasoning": "McDavid factor + Career stats superiority"
+      },
+      "patterns_analysis": {
+        "confidence_adjustment": 0.244,
+        "ev_adjustment": 0.012,
+        "momentum_diff": 0.66,
+        "fatigue_diff": 0.2,
+        "rivalry_boost": 0.0,
+        "clutch_boost": 0.1,
+        "injury_impact": 0.21,
+        "furious": true,
+        "quality": 1.0,
+        "factors": [
+          "momentum",
+          "fatigue",
+          "clutch",
+          "injury"
+        ]
+      },
+      "fusion_metrics": {
+        "fusion_confidence": 0.95,
+        "fusion_expected_value": 0.18680000000000002,
+        "fusion_kelly_fraction": 0.05,
+        "fusion_quality_score": 0.964,
+        "systems_agreement_score": 1.0,
+        "confidence_layers_validation": 4,
+        "quantum_bonus_applied": 0.12,
+        "variance_reduction_achieved": 0.6000000000000001,
+        "fun_transcendant_level": 25,
+        "validation_details": {
+          "layers_validated": 4,
+          "total_adjustment": 0.36,
+          "adjustments": [
+            [
+              "veteran_stability",
+              0.08
+            ],
+            [
+              "furious_patterns",
+              0.12
+            ],
+            [
+              "systems_agreement",
+              0.1
+            ],
+            [
+              "multiple_factors",
+              0.06
+            ]
+          ],
+          "validation_strength": 1.0
+        }
+      },
+      "supreme_recommendation": false,
+      "fusion_reasoning": "Accord syst\u00e8mes \u00e9lev\u00e9 + Patterns furieux d\u00e9tect\u00e9s + Dominance v\u00e9t\u00e9rans + Validation multi-couches",
+      "roi_projection": 29.888000000000005,
+      "analysis_timestamp": "2025-09-09T16:08:34.682800"
+    },
+    {
+      "game_date": "2025-10-11",
+      "home_team": "FLA",
+      "away_team": "NYR",
+      "grok_analysis": {
+        "confidence": 0.75,
+        "expected_value": 0.18,
+        "career_rating": 0.82,
+        "veteran_percentage": 0.72,
+        "ea_result": "FLA 2-0 NYR",
+        "reasoning": "Home momentum + Goalie advantage"
+      },
+      "patterns_analysis": {
+        "confidence_adjustment": 0.189,
+        "ev_adjustment": 0.0,
+        "momentum_diff": 0.46,
+        "fatigue_diff": 0.08,
+        "rivalry_boost": 0.0,
+        "clutch_boost": 0.12,
+        "injury_impact": 0.066,
+        "furious": true,
+        "quality": 0.88,
+        "factors": [
+          "momentum",
+          "clutch"
+        ]
+      },
+      "fusion_metrics": {
+        "fusion_confidence": 0.95,
+        "fusion_expected_value": 0.158,
+        "fusion_kelly_fraction": 0.05,
+        "fusion_quality_score": 0.76,
+        "systems_agreement_score": 1.0,
+        "confidence_layers_validation": 1,
+        "quantum_bonus_applied": 0.12,
+        "variance_reduction_achieved": 0.45,
+        "fun_transcendant_level": 24,
+        "validation_details": {
+          "layers_validated": 1,
+          "total_adjustment": 0.1,
+          "adjustments": [
+            [
+              "systems_agreement",
+              0.1
+            ]
+          ],
+          "validation_strength": 0.25
+        }
+      },
+      "supreme_recommendation": false,
+      "fusion_reasoning": "Accord syst\u00e8mes \u00e9lev\u00e9 + Patterns furieux d\u00e9tect\u00e9s",
+      "roi_projection": 22.91,
+      "analysis_timestamp": "2025-09-09T16:08:34.685216"
+    }
+  ]
+}

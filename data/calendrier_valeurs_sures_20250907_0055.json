@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "date_generation": "2025-09-07 00:55",
+    "nb_jours_analyses": 0,
+    "nb_matchs_total": 0,
+    "nb_valeurs_sures": 0
+  },
+  "forces_equipes": {},
+  "calendrier_jour": {},
+  "meilleures_journees": [],
+  "resume_valeurs_sures": {
+    "top_valeurs_sures": [],
+    "stats": {
+      "nb_valeurs_sures": 0,
+      "score_moyen": 0,
+      "mise_totale_suggeree": 0,
+      "par_confiance": {
+        "TRÈS ÉLEVÉE": 0,
+        "ÉLEVÉE": 0,
+        "MOYENNE": 0,
+        "FAIBLE": 0
+      },
+      "par_type_pari": {}
+    }
+  },
+  "donnees_source": {
+    "classements_actuels_disponibles": true,
+    "calendrier_officiel_disponible": true,
+    "stats_historiques_integrees": true
+  }
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🎰 NHL Odds Live Dashboard</title>
+    <style>
+        body { font-family: Arial; margin: 20px; background: #1a1a2e; color: white; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .games-grid { display: grid; gap: 20px; }
+        .game-card { 
+            background: #16213e; 
+            border-radius: 10px; 
+            padding: 15px; 
+            border-left: 4px solid #0f4c75;
+        }
+        .game-header { font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+        .odds-table { width: 100%; margin-top: 10px; }
+        .odds-table th, .odds-table td { 
+            padding: 5px 10px; 
+            text-align: center; 
+            border: 1px solid #444;
+        }
+        .positive-ev { background-color: #2d5a2d !important; color: #90ee90; }
+        .negative-ev { background-color: #5a2d2d !important; color: #ffcccb; }
+        .recommendation { 
+            background: #ffd700; 
+            color: #000; 
+            padding: 5px 10px; 
+            border-radius: 5px; 
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .timestamp { color: #888; font-size: 12px; }
+    </style>
+    <script>
+        // Auto-refresh every 30 seconds
+        setTimeout(() => location.reload(), 30000);
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>🎰 NHL ODDS LIVE DASHBOARD</h1>
+        <p class="timestamp">Last updated: 2025-09-09 19:32:15</p>
+    </div>
+    
+    <div class="games-grid">
+
+        <div class="game-card">
+            <div class="game-header">
+                PIT @ MTL
+            </div>
+            
+            <table class="odds-table">
+                <tr>
+                    <th>Bookmaker</th>
+                    <th>PIT</th>
+                    <th>MTL</th>
+                </tr>
+
+                <tr>
+                    <td>betmgm</td>
+                    <td class="">+108</td>
+                    <td class="positive-ev">-128</td>
+                </tr>
+
+                <tr>
+                    <td>betmgm</td>
+                    <td class="">+108</td>
+                    <td class="positive-ev">-128</td>
+                </tr>
+
+                <tr>
+                    <td>draftkings</td>
+                    <td class="">+100</td>
+                    <td class="positive-ev">-120</td>
+                </tr>
+
+                <tr>
+                    <td>draftkings</td>
+                    <td class="">+100</td>
+                    <td class="positive-ev">-120</td>
+                </tr>
+
+                <tr>
+                    <td>fanduel</td>
+                    <td class="">+105</td>
+                    <td class="positive-ev">-125</td>
+                </tr>
+
+                <tr>
+                    <td>fanduel</td>
+                    <td class="">+105</td>
+                    <td class="positive-ev">-125</td>
+                </tr>
+</table>
+            <div style="margin-top: 10px;">
+                <small>EV: MTL +19.2% | 
+                       PIT -27.2%</small>
+            </div>
+
+            <div class="recommendation">
+                💡 BET: MTL ML - $19
+            </div>
+</div>
+        <div class="game-card">
+            <div class="game-header">
+                PHI @ MTL
+            </div>
+            
+            <table class="odds-table">
+                <tr>
+                    <th>Bookmaker</th>
+                    <th>PHI</th>
+                    <th>MTL</th>
+                </tr>
+
+                <tr>
+                    <td>betmgm</td>
+                    <td class="positive-ev">+108</td>
+                    <td class="">-128</td>
+                </tr>
+
+                <tr>
+                    <td>betmgm</td>
+                    <td class="positive-ev">+108</td>
+                    <td class="">-128</td>
+                </tr>
+
+                <tr>
+                    <td>draftkings</td>
+                    <td class="positive-ev">+100</td>
+                    <td class="">-120</td>
+                </tr>
+
+                <tr>
+                    <td>draftkings</td>
+                    <td class="positive-ev">+100</td>
+                    <td class="">-120</td>
+                </tr>
+
+                <tr>
+                    <td>fanduel</td>
+                    <td class="positive-ev">+105</td>
+                    <td class="">-125</td>
+                </tr>
+
+                <tr>
+                    <td>fanduel</td>
+                    <td class="positive-ev">+105</td>
+                    <td class="">-125</td>
+                </tr>
+</table>
+            <div style="margin-top: 10px;">
+                <small>EV: MTL -23.0% | 
+                       PHI +20.6%</small>
+            </div>
+
+            <div class="recommendation">
+                💡 BET: PHI ML - $21
+            </div>
+</div>
+        <div class="game-card">
+            <div class="game-header">
+                MTL @ TOR
+            </div>
+            
+            <table class="odds-table">
+                <tr>
+                    <th>Bookmaker</th>
+                    <th>MTL</th>
+                    <th>TOR</th>
+                </tr>
+
+                <tr>
+                    <td>betmgm</td>
+                    <td class="positive-ev">-132</td>
+                    <td class="">+112</td>
+                </tr>
+
+                <tr>
+                    <td>betmgm</td>
+                    <td class="positive-ev">-132</td>
+                    <td class="">+112</td>
+                </tr>
+
+                <tr>
+                    <td>draftkings</td>
+                    <td class="positive-ev">-140</td>
+                    <td class="">+120</td>
+                </tr>
+
+                <tr>
+                    <td>draftkings</td>
+                    <td class="positive-ev">-140</td>
+                    <td class="">+120</td>
+                </tr>
+
+                <tr>
+                    <td>fanduel</td>
+                    <td class="positive-ev">-135</td>
+                    <td class="">+115</td>
+                </tr>
+
+                <tr>
+                    <td>fanduel</td>
+                    <td class="positive-ev">-135</td>
+                    <td class="">+115</td>
+                </tr>
+</table>
+            <div style="margin-top: 10px;">
+                <small>EV: TOR -38.4% | 
+                       MTL +26.5%</small>
+            </div>
+
+            <div class="recommendation">
+                💡 BET: MTL ML - $27
+            </div>
+</div>
+        <div class="game-card">
+            <div class="game-header">
+                MTL @ OTT
+            </div>
+            
+            <table class="odds-table">
+                <tr>
+                    <th>Bookmaker</th>
+                    <th>MTL</th>
+                    <th>OTT</th>
+                </tr>
+
+                <tr>
+                    <td>betmgm</td>
+                    <td class="">-132</td>
+                    <td class="positive-ev">+112</td>
+                </tr>
+
+                <tr>
+                    <td>betmgm</td>
+                    <td class="">-132</td>
+                    <td class="positive-ev">+112</td>
+                </tr>
+
+                <tr>
+                    <td>draftkings</td>
+                    <td class="">-140</td>
+                    <td class="positive-ev">+120</td>
+                </tr>
+
+                <tr>
+                    <td>draftkings</td>
+                    <td class="">-140</td>
+                    <td class="positive-ev">+120</td>
+                </tr>
+
+                <tr>
+                    <td>fanduel</td>
+                    <td class="">-135</td>
+                    <td class="positive-ev">+115</td>
+                </tr>
+
+                <tr>
+                    <td>fanduel</td>
+                    <td class="">-135</td>
+                    <td class="positive-ev">+115</td>
+                </tr>
+</table>
+            <div style="margin-top: 10px;">
+                <small>EV: OTT +34.2% | 
+                       MTL -31.5%</small>
+            </div>
+
+            <div class="recommendation">
+                💡 BET: OTT ML - $34
+            </div>
+</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+[
+  {
+    "game_id": "BOS@COL_2025-12-20",
+    "home_team": "COL",
+    "away_team": "BOS",
+    "game_date": "2025-12-20",
+    "hybrid_confidence": 0.4264800864497791,
+    "expected_value": 0.0,
+    "kelly_fraction": 0.0,
+    "recommendation": "PASS",
+    "grade": "FAIBLE",
+    "behavioral_factors": {
+      "fatigue_advantage": 1.0,
+      "comeback_advantage": 0.5,
+      "resilience_advantage": 0.8384615384615385
+    },
+    "line_signals": {
+      "movement_signal": 0.0,
+      "sharp_money": false
+    },
+    "expert_confidence": 0.4618861351886292,
+    "ml_confidence": 0.42948681419015916
+  },
+  {
+    "game_id": "EDM@TOR_2025-12-15",
+    "home_team": "TOR",
+    "away_team": "EDM",
+    "game_date": "2025-12-15",
+    "hybrid_confidence": 0.49246757583715944,
+    "expected_value": 0.0,
+    "kelly_fraction": 0.0,
+    "recommendation": "PASS",
+    "grade": "FAIBLE",
+    "behavioral_factors": {
+      "fatigue_advantage": 1.0,
+      "comeback_advantage": 0.5,
+      "resilience_advantage": 0.9615384615384616
+    },
+    "line_signals": {
+      "movement_signal": 0.0,
+      "sharp_money": false
+    },
+    "expert_confidence": 0.504204008308058,
+    "ml_confidence": 0.5396612923725431
+  },
+  {
+    "game_id": "CGY@VEG_2025-01-08",
+    "home_team": "VEG",
+    "away_team": "CGY",
+    "game_date": "2025-01-08",
+    "hybrid_confidence": 0.4554161882776673,
+    "expected_value": 0.0,
+    "kelly_fraction": 0.0,
+    "recommendation": "PASS",
+    "grade": "FAIBLE",
+    "behavioral_factors": {
+      "fatigue_advantage": 1.0,
+      "comeback_advantage": 0.5,
+      "resilience_advantage": 1.0
+    },
+    "line_signals": {
+      "movement_signal": 0.0,
+      "sharp_money": false
+    },
+    "expert_confidence": 0.47478470909172427,
+    "ml_confidence": 0.48628658972469596
+  }
+]

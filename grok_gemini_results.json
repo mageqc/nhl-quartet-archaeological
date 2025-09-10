@@ -1,0 +1,129 @@
+{
+  "timestamp": "2025-09-09T19:32:21.869667",
+  "system_version": "Grok + Gemini Hybrid v1.0",
+  "bankroll": 1000,
+  "all_bets": [
+    {
+      "date": "2025-09-22",
+      "match": "MTL vs Pittsburgh Penguins",
+      "win_prob": 0.24,
+      "american_odds": 105,
+      "decimal_odds": 2.05,
+      "expected_value": -0.508,
+      "bet_amount": 0,
+      "potential_profit": 0,
+      "hype_factor": 0.8,
+      "notes": "Premier test - Demidov debut"
+    },
+    {
+      "date": "2025-09-23",
+      "match": "MTL vs Philadelphia Flyers",
+      "win_prob": 0.16999999999999998,
+      "american_odds": 105,
+      "decimal_odds": 2.05,
+      "expected_value": -0.6515000000000001,
+      "bet_amount": 0,
+      "potential_profit": 0,
+      "hype_factor": 0.7,
+      "notes": "Value bet confirmé EV 6.91%"
+    },
+    {
+      "date": "2025-09-25",
+      "match": "MTL vs Toronto Maple Leafs",
+      "win_prob": 0.15,
+      "american_odds": 105,
+      "decimal_odds": 2.05,
+      "expected_value": -0.6925000000000001,
+      "bet_amount": 0,
+      "potential_profit": 0,
+      "hype_factor": 0.9,
+      "notes": "vs Original Six - Pattern test"
+    },
+    {
+      "date": "2025-09-27",
+      "match": "MTL @ Toronto Maple Leafs",
+      "win_prob": 0.85,
+      "american_odds": -140,
+      "decimal_odds": 1.7142857142857144,
+      "expected_value": 0.4571428571428573,
+      "bet_amount": 50.0,
+      "potential_profit": 35.71428571428572,
+      "hype_factor": 0.6,
+      "notes": "Away rival - variance test"
+    },
+    {
+      "date": "2025-09-30",
+      "match": "MTL @ Ottawa Senators",
+      "win_prob": 0.85,
+      "american_odds": -140,
+      "decimal_odds": 1.7142857142857144,
+      "expected_value": 0.4571428571428573,
+      "bet_amount": 50.0,
+      "potential_profit": 35.71428571428572,
+      "hype_factor": 0.8,
+      "notes": "Terrain neutre - foule MTL"
+    },
+    {
+      "date": "2025-10-04",
+      "match": "MTL vs Ottawa Senators",
+      "win_prob": 0.16999999999999998,
+      "american_odds": 105,
+      "decimal_odds": 2.05,
+      "expected_value": -0.6515000000000001,
+      "bet_amount": 0,
+      "potential_profit": 0,
+      "hype_factor": 0.7,
+      "notes": "Value bet confirmé EV 8.82%"
+    }
+  ],
+  "value_bets": [
+    {
+      "date": "2025-09-27",
+      "match": "MTL @ Toronto Maple Leafs",
+      "win_prob": 0.85,
+      "american_odds": -140,
+      "decimal_odds": 1.7142857142857144,
+      "expected_value": 0.4571428571428573,
+      "bet_amount": 50.0,
+      "potential_profit": 35.71428571428572,
+      "hype_factor": 0.6,
+      "notes": "Away rival - variance test"
+    },
+    {
+      "date": "2025-09-30",
+      "match": "MTL @ Ottawa Senators",
+      "win_prob": 0.85,
+      "american_odds": -140,
+      "decimal_odds": 1.7142857142857144,
+      "expected_value": 0.4571428571428573,
+      "bet_amount": 50.0,
+      "potential_profit": 35.71428571428572,
+      "hype_factor": 0.8,
+      "notes": "Terrain neutre - foule MTL"
+    }
+  ],
+  "parlays": [
+    {
+      "games": [
+        "MTL @ Toronto Maple Leafs",
+        "MTL @ Ottawa Senators"
+      ],
+      "dates": [
+        "2025-09-27",
+        "2025-09-30"
+      ],
+      "bet_amount": 18.02,
+      "parlay_odds": 2.9387755102040822,
+      "expected_value": 0.6986122448979595,
+      "potential_payout": 52.95673469387756,
+      "correlation_adjusted": true
+    }
+  ],
+  "summary_stats": {
+    "total_games": 6,
+    "value_bets_count": 2,
+    "parlays_count": 1,
+    "total_stakes": 100.0,
+    "avg_ev": 0.4571428571428573
+  }
+}

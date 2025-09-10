@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💰 NHL Profit System - Machine à Cash IA</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f4c75, #3282b8, #0f4c75);
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.4);
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            background: linear-gradient(45deg, #ffd700, #4CAF50);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+        }
+        
+        .ai-badge {
+            background: linear-gradient(45deg, #ff6b35, #f7931e);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 10px 5px;
+            display: inline-block;
+            font-size: 0.9em;
+        }
+        
+        .bankroll-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 2px solid transparent;
+        }
+        
+        .stat-card.profit { border-color: #4CAF50; }
+        .stat-card.warning { border-color: #ff9800; }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #ffd700;
+        }
+        
+        .value-bets {
+            background: rgba(0,0,0,0.3);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .bet-card {
+            background: rgba(76,175,80,0.2);
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        
+        .bet-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        
+        .bet-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .detail-item {
+            text-align: center;
+            padding: 5px;
+        }
+        
+        .detail-label {
+            font-size: 0.8em;
+            color: #ccc;
+        }
+        
+        .detail-value {
+            font-weight: bold;
+            color: #ffd700;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>💰 NHL Profit System</h1>
+        <p>Machine à Cash via IA • Présaison Canadiens 2025</p>
+        
+        <span class="ai-badge">🤖 Recommandations Gemini</span>
+        <span class="ai-badge">🚀 Algorithmes Grok</span>
+    </div>
+    
+    <div class="bankroll-summary">
+        <div class="stat-card profit">
+            <div class="stat-number">$1,000</div>
+            <div>Bankroll Actuel</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">2</div>
+            <div>Value Bets Détectés</div>
+        </div>
+        <div class="stat-card warning">
+            <div class="stat-number">43</div>
+            <div>Capital Recommandé ($)</div>
+        </div>
+        <div class="stat-card profit">
+            <div class="stat-number">15.7%</div>
+            <div>ROI Potentiel Total</div>
+        </div>
+    </div>
+    
+    <div class="value-bets">
+        <h2>🎯 Value Bets Présaison Canadiens</h2>
+        
+        
+                <div class="bet-card">
+                    <div class="bet-title">
+                        🏒 MTL vs Philadelphia Flyers - 2025-09-23
+                    </div>
+                    
+                    <div class="bet-details">
+                        <div class="detail-item">
+                            <div class="detail-label">Probabilité</div>
+                            <div class="detail-value">56.0%</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Odds</div>
+                            <div class="detail-value">-110</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Expected Value</div>
+                            <div class="detail-value">6.9%</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Kelly %</div>
+                            <div class="detail-value">1.9%</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Bet Recommandé</div>
+                            <div class="detail-value">$19.00</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">ROI Potentiel</div>
+                            <div class="detail-value">6.9%</div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="bet-card">
+                    <div class="bet-title">
+                        🏒 MTL vs Ottawa Senators - 2025-10-04
+                    </div>
+                    
+                    <div class="bet-details">
+                        <div class="detail-item">
+                            <div class="detail-label">Probabilité</div>
+                            <div class="detail-value">57.0%</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Odds</div>
+                            <div class="detail-value">-110</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Expected Value</div>
+                            <div class="detail-value">8.8%</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Kelly %</div>
+                            <div class="detail-value">2.4%</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Bet Recommandé</div>
+                            <div class="detail-value">$24.25</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">ROI Potentiel</div>
+                            <div class="detail-value">8.8%</div>
+                        </div>
+                    </div>
+                </div>
+            
+    </div>
+    
+    <div class="footer">
+        <p>🏒 Système basé sur analyses IA expertes (Gemini + Grok)</p>
+        <p>⚡ Généré le 2025-09-09 19:14:24</p>
+        <p>💡 Kelly Criterion • Expected Value • ML Présaison</p>
+    </div>
+    
+    <script>
+        console.log('💰 Profit System loaded!');
+        console.log('Bankroll: $1000');
+        console.log('Value Bets: 2');
+        
+        // Auto-refresh chaque 5 minutes
+        setTimeout(() => location.reload(), 300000);
+    </script>
+</body>
+</html>
+        

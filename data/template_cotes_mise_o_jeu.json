@@ -1,0 +1,177 @@
+{
+  "// Instructions": "Template pour structurer les cotes extraites du PDF Mise-o-jeu+",
+  "// Format": "Copier les cotes exactes depuis le site/PDF et les organiser selon cette structure",
+  
+  "opening_games": {
+    "TOR vs MTL (07/10)": {
+      "TOR": 1.67,
+      "MTL": 2.20,
+      "market": "Vainqueur du match"
+    },
+    "EDM vs VAN (08/10)": {
+      "EDM": 1.55,
+      "VAN": 2.40,
+      "market": "Vainqueur du match"
+    },
+    "BOS vs FLA (07/10)": {
+      "BOS": 1.95,
+      "FLA": 1.85,
+      "market": "Vainqueur du match"
+    }
+  },
+  
+  "stanley_cup": {
+    "Edmonton Oilers": 6.50,
+    "Toronto Maple Leafs": 8.00,
+    "Boston Bruins": 9.50,
+    "Florida Panthers": 10.00,
+    "Colorado Avalanche": 11.00,
+    "New York Rangers": 12.00,
+    "Carolina Hurricanes": 14.00,
+    "Dallas Stars": 16.00,
+    "Vegas Golden Knights": 18.00,
+    "Vancouver Canucks": 20.00,
+    "Seattle Kraken": 25.00,
+    "New Jersey Devils": 30.00,
+    "Winnipeg Jets": 35.00,
+    "Philadelphia Flyers": 50.00,
+    "Montreal Canadiens": 75.00,
+    "Ottawa Senators": 100.00
+  },
+  
+  "divisions": {
+    "Atlantique": {
+      "Toronto Maple Leafs": 3.25,
+      "Florida Panthers": 3.75,
+      "Boston Bruins": 4.00,
+      "Tampa Bay Lightning": 4.50,
+      "Buffalo Sabres": 12.00,
+      "Ottawa Senators": 15.00,
+      "Detroit Red Wings": 18.00,
+      "Montreal Canadiens": 25.00
+    },
+    "Métropolitaine": {
+      "New York Rangers": 3.00,
+      "Carolina Hurricanes": 3.50,
+      "New Jersey Devils": 4.25,
+      "Washington Capitals": 5.50,
+      "Philadelphia Flyers": 8.00,
+      "Pittsburgh Penguins": 10.00,
+      "New York Islanders": 12.00,
+      "Columbus Blue Jackets": 20.00
+    },
+    "Centrale": {
+      "Dallas Stars": 3.25,
+      "Colorado Avalanche": 3.75,
+      "Winnipeg Jets": 4.50,
+      "Nashville Predators": 6.00,
+      "Minnesota Wild": 8.00,
+      "St. Louis Blues": 10.00,
+      "Utah Hockey Club": 15.00,
+      "Chicago Blackhawks": 25.00
+    },
+    "Pacifique": {
+      "Edmonton Oilers": 2.80,
+      "Vancouver Canucks": 4.25,
+      "Seattle Kraken": 5.50,
+      "Calgary Flames": 6.00,
+      "Los Angeles Kings": 7.00,
+      "Vegas Golden Knights": 8.50,
+      "Anaheim Ducks": 20.00,
+      "San Jose Sharks": 30.00
+    }
+  },
+  
+  "trophees": {
+    "Hart Trophy": {
+      "Connor McDavid": 3.50,
+      "Auston Matthews": 5.00,
+      "Nathan MacKinnon": 6.50,
+      "David Pastrnak": 12.00,
+      "Leon Draisaitl": 15.00,
+      "Mikko Rantanen": 18.00,
+      "Quinn Hughes": 25.00
+    },
+    "Calder Trophy": {
+      "Macklin Celebrini": 4.25,
+      "Matvei Michkov": 5.50,
+      "Logan Cooley": 8.00,
+      "Adam Fantilli": 12.00,
+      "Connor Bedard": 15.00,
+      "Leo Carlsson": 18.00
+    },
+    "Norris Trophy": {
+      "Quinn Hughes": 4.00,
+      "Cale Makar": 4.50,
+      "Erik Karlsson": 8.00,
+      "Roman Josi": 10.00,
+      "Victor Hedman": 12.00,
+      "Adam Fox": 15.00
+    },
+    "Vezina Trophy": {
+      "Igor Shesterkin": 3.25,
+      "Connor Hellebuyck": 4.50,
+      "Sergei Bobrovsky": 6.00,
+      "Jeremy Swayman": 8.00,
+      "Stuart Skinner": 12.00,
+      "Thatcher Demko": 15.00
+    }
+  },
+  
+  "player_props": {
+    "McDavid Points O/U 140.5": {
+      "Over": 1.90,
+      "Under": 1.90
+    },
+    "Matthews Buts O/U 55.5": {
+      "Over": 1.95,
+      "Under": 1.85
+    },
+    "Caufield Buts O/U 35.5": {
+      "Over": 2.10,
+      "Under": 1.75
+    },
+    "Pastrnak Points O/U 90.5": {
+      "Over": 1.85,
+      "Under": 1.95
+    },
+    "Hughes Points O/U 75.5": {
+      "Over": 2.00,
+      "Under": 1.80
+    }
+  },
+  
+  "team_props": {
+    "Oilers Points Saison O/U 105.5": {
+      "Over": 1.90,
+      "Under": 1.90
+    },
+    "Leafs Points Saison O/U 100.5": {
+      "Over": 1.85,
+      "Under": 1.95
+    },
+    "Canadiens Points Saison O/U 85.5": {
+      "Over": 1.95,
+      "Under": 1.85
+    }
+  },
+  
+  "conference_winners": {
+    "Est": {
+      "Toronto Maple Leafs": 4.50,
+      "Boston Bruins": 5.00,
+      "Florida Panthers": 5.50,
+      "New York Rangers": 6.00,
+      "Carolina Hurricanes": 7.00,
+      "Tampa Bay Lightning": 8.00
+    },
+    "Ouest": {
+      "Edmonton Oilers": 3.75,
+      "Colorado Avalanche": 4.25,
+      "Dallas Stars": 5.00,
+      "Vancouver Canucks": 8.00,
+      "Vegas Golden Knights": 10.00,
+      "Seattle Kraken": 12.00
+    }
+  }
+}

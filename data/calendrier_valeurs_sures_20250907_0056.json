@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "date_generation": "2025-09-07 00:56",
+    "nb_jours_analyses": 0,
+    "nb_matchs_total": 0,
+    "nb_valeurs_sures": 0
+  },
+  "forces_equipes": {
+    "ANA": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "BOS": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 109,
+      "rang_2024_25": 2,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.85,
+      "score_combine": 74.6,
+      "categorie": "FAIBLE"
+    },
+    "BUF": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 84,
+      "rang_2024_25": 6,
+      "playoffs_2024_25": false,
+      "domination_home_2024_25": 0.61,
+      "score_combine": 62.1,
+      "categorie": "FAIBLE"
+    },
+    "CGY": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "CAR": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 111,
+      "rang_2024_25": 2,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.83,
+      "score_combine": 75.6,
+      "categorie": "FAIBLE"
+    },
+    "CHI": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "COL": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 108,
+      "rang_2024_25": 2,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.82,
+      "score_combine": 74.1,
+      "categorie": "FAIBLE"
+    },
+    "CBJ": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "DAL": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 113,
+      "rang_2024_25": 1,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.84,
+      "score_combine": 76.6,
+      "categorie": "FAIBLE"
+    },
+    "DET": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 91,
+      "rang_2024_25": 5,
+      "playoffs_2024_25": false,
+      "domination_home_2024_25": 0.67,
+      "score_combine": 65.6,
+      "categorie": "FAIBLE"
+    },
+    "EDM": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 104,
+      "rang_2024_25": 2,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.76,
+      "score_combine": 72.1,
+      "categorie": "FAIBLE"
+    },
+    "FLA": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 110,
+      "rang_2024_25": 1,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.83,
+      "score_combine": 75.1,
+      "categorie": "FAIBLE"
+    },
+    "LAK": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "MIN": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "MTL": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 76,
+      "rang_2024_25": 8,
+      "playoffs_2024_25": false,
+      "domination_home_2024_25": 0.56,
+      "score_combine": 58.1,
+      "categorie": "FAIBLE"
+    },
+    "NSH": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "NJD": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 112,
+      "rang_2024_25": 3,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.8,
+      "score_combine": 76.1,
+      "categorie": "FAIBLE"
+    },
+    "NYI": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "NYR": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 114,
+      "rang_2024_25": 1,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.8,
+      "score_combine": 77.1,
+      "categorie": "FAIBLE"
+    },
+    "OTT": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 89,
+      "rang_2024_25": 7,
+      "playoffs_2024_25": false,
+      "domination_home_2024_25": 0.64,
+      "score_combine": 64.6,
+      "categorie": "FAIBLE"
+    },
+    "PHI": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "PIT": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "SEA": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "SJS": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "STL": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    },
+    "TBL": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 98,
+      "rang_2024_25": 4,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.74,
+      "score_combine": 69.1,
+      "categorie": "FAIBLE"
+    },
+    "TOR": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 102,
+      "rang_2024_25": 3,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.73,
+      "score_combine": 71.1,
+      "categorie": "FAIBLE"
+    },
+    "VAN": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 109,
+      "rang_2024_25": 1,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.83,
+      "score_combine": 74.6,
+      "categorie": "FAIBLE"
+    },
+    "VGK": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 98,
+      "rang_2024_25": 3,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.71,
+      "score_combine": 69.1,
+      "categorie": "FAIBLE"
+    },
+    "WSH": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 91,
+      "rang_2024_25": 8,
+      "playoffs_2024_25": false,
+      "domination_home_2024_25": 0.63,
+      "score_combine": 65.6,
+      "categorie": "FAIBLE"
+    },
+    "WPG": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427,
+      "points_2024_25": 95,
+      "rang_2024_25": 1,
+      "playoffs_2024_25": true,
+      "domination_home_2024_25": 0.68,
+      "score_combine": 67.6,
+      "categorie": "FAIBLE"
+    },
+    "ARI": {
+      "points_actuels": 80,
+      "matchs_actuels": 82,
+      "ppg_actuels": 0.98,
+      "victoires_actuelles": 35,
+      "pourcentage_victoires_actuels": 0.427
+    }
+  },
+  "calendrier_jour": {},
+  "meilleures_journees": [],
+  "resume_valeurs_sures": {
+    "top_valeurs_sures": [],
+    "stats": {
+      "nb_valeurs_sures": 0,
+      "score_moyen": 0,
+      "mise_totale_suggeree": 0,
+      "par_confiance": {
+        "TRÈS ÉLEVÉE": 0,
+        "ÉLEVÉE": 0,
+        "MOYENNE": 0,
+        "FAIBLE": 0
+      },
+      "par_type_pari": {}
+    }
+  },
+  "donnees_source": {
+    "classements_actuels_disponibles": true,
+    "calendrier_officiel_disponible": true,
+    "stats_historiques_integrees": true
+  }
+}

@@ -1,0 +1,3000 @@
+{
+  "recommendations": [
+    {
+      "date": "2025-10-10",
+      "matchup": "STL @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-10",
+      "matchup": "MTL @ NJD",
+      "type": "GAGNANT",
+      "selection": "NJD",
+      "expected_odds": 1.65,
+      "confidence_score": 63.0931229020656,
+      "bet_amount": 33.97,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 33.97,
+        "fraction": 0.031566559910832584,
+        "kelly_raw": 0.06313311982166517,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 63.0931229020656,
+        "components": {
+          "home_advantage": 24.593122902065605,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-11",
+      "matchup": "ANA @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-13",
+      "matchup": "MTL @ VAN",
+      "type": "GAGNANT",
+      "selection": "VAN",
+      "expected_odds": 1.6,
+      "confidence_score": 63.0931229020656,
+      "bet_amount": 8.51,
+      "reasoning": "Domicile dominant (70%)",
+      "kelly_info": {
+        "amount": 8.51,
+        "fraction": 0.007908305360874722,
+        "kelly_raw": 0.015816610721749443,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 63.0931229020656,
+        "components": {
+          "home_advantage": 24.593122902065605,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-16",
+      "matchup": "DET @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-17",
+      "matchup": "MTL @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.65,
+      "confidence_score": 73.01878736512967,
+      "bet_amount": 53.8,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.3150922946532915,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 73.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 21.5,
+          "head_to_head": 15.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-17",
+      "matchup": "CGY @ EDM",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 56.454068103935825,
+      "bet_amount": 28.1,
+      "reasoning": "Rivalité intense EDM-CGY",
+      "kelly_info": {
+        "amount": 28.1,
+        "fraction": 0.02611779995459581,
+        "kelly_raw": 0.05223559990919162,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 56.454068103935825,
+        "components": {
+          "home_advantage": 20.95406810393582,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-18",
+      "matchup": "MTL @ FLA",
+      "type": "GAGNANT",
+      "selection": "FLA",
+      "expected_odds": 1.65,
+      "confidence_score": 65.01878736512967,
+      "bet_amount": 53.8,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.1120153715763685,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 65.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-19",
+      "matchup": "EDM @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-19",
+      "matchup": "CGY @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-21",
+      "matchup": "MIN @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-21",
+      "matchup": "DET @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-22",
+      "matchup": "TOR @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-23",
+      "matchup": "MIN @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-24",
+      "matchup": "MTL @ BOS",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 75.01878736512967,
+      "bet_amount": 53.8,
+      "reasoning": "Rivalité intense BOS-MTL",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.4562912544175281,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 75.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 21.5,
+          "head_to_head": 17.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-24",
+      "matchup": "STL @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-25",
+      "matchup": "WPG @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-25",
+      "matchup": "MTL @ BOS",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 75.01878736512967,
+      "bet_amount": 53.8,
+      "reasoning": "Rivalité intense BOS-MTL",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.4562912544175281,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 75.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 21.5,
+          "head_to_head": 17.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-26",
+      "matchup": "MTL @ FLA",
+      "type": "GAGNANT",
+      "selection": "FLA",
+      "expected_odds": 1.65,
+      "confidence_score": 65.01878736512967,
+      "bet_amount": 53.8,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.1120153715763685,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 65.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-26",
+      "matchup": "MTL @ NYR",
+      "type": "GAGNANT",
+      "selection": "NYR",
+      "expected_odds": 1.65,
+      "confidence_score": 63.0931229020656,
+      "bet_amount": 33.97,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 33.97,
+        "fraction": 0.031566559910832584,
+        "kelly_raw": 0.06313311982166517,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 63.0931229020656,
+        "components": {
+          "home_advantage": 24.593122902065605,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-31",
+      "matchup": "CGY @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-10-31",
+      "matchup": "CHI @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.0
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-03",
+      "matchup": "MTL @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.65,
+      "confidence_score": 73.01878736512967,
+      "bet_amount": 53.8,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.3150922946532915,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 73.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 21.5,
+          "head_to_head": 15.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-04",
+      "matchup": "VGK @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-04",
+      "matchup": "OTT @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-05",
+      "matchup": "CGY @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-06",
+      "matchup": "TOR @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-06",
+      "matchup": "DET @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-07",
+      "matchup": "OTT @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-08",
+      "matchup": "WPG @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-08",
+      "matchup": "TOR @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-10",
+      "matchup": "DET @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-10",
+      "matchup": "ANA @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-11",
+      "matchup": "ANA @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-12",
+      "matchup": "MTL @ NYR",
+      "type": "GAGNANT",
+      "selection": "NYR",
+      "expected_odds": 1.65,
+      "confidence_score": 63.0931229020656,
+      "bet_amount": 33.97,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 33.97,
+        "fraction": 0.031566559910832584,
+        "kelly_raw": 0.06313311982166517,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 63.0931229020656,
+        "components": {
+          "home_advantage": 24.593122902065605,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-12",
+      "matchup": "VGK @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-13",
+      "matchup": "TOR @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-14",
+      "matchup": "CGY @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-16",
+      "matchup": "CGY @ EDM",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 56.454068103935825,
+      "bet_amount": 28.1,
+      "reasoning": "Rivalité intense EDM-CGY",
+      "kelly_info": {
+        "amount": 28.1,
+        "fraction": 0.02611779995459581,
+        "kelly_raw": 0.05223559990919162,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 56.454068103935825,
+        "components": {
+          "home_advantage": 20.95406810393582,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-16",
+      "matchup": "CGY @ EDM",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 56.454068103935825,
+      "bet_amount": 28.1,
+      "reasoning": "Rivalité intense EDM-CGY",
+      "kelly_info": {
+        "amount": 28.1,
+        "fraction": 0.02611779995459581,
+        "kelly_raw": 0.05223559990919162,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 56.454068103935825,
+        "components": {
+          "home_advantage": 20.95406810393582,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-19",
+      "matchup": "VGK @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-19",
+      "matchup": "EDM @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-20",
+      "matchup": "ANA @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-20",
+      "matchup": "CHI @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-21",
+      "matchup": "MTL @ NYR",
+      "type": "GAGNANT",
+      "selection": "NYR",
+      "expected_odds": 1.65,
+      "confidence_score": 63.0931229020656,
+      "bet_amount": 33.97,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 33.97,
+        "fraction": 0.031566559910832584,
+        "kelly_raw": 0.06313311982166517,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 63.0931229020656,
+        "components": {
+          "home_advantage": 24.593122902065605,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-21",
+      "matchup": "MIN @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-22",
+      "matchup": "MIN @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-22",
+      "matchup": "EDM @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-23",
+      "matchup": "ANA @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-23",
+      "matchup": "MIN @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-24",
+      "matchup": "EDM @ CGY",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 57.286076592064916,
+      "bet_amount": 37.85,
+      "reasoning": "Rivalité intense CGY-EDM",
+      "kelly_info": {
+        "amount": 37.85,
+        "fraction": 0.035172009972471156,
+        "kelly_raw": 0.07034401994494231,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 57.286076592064916,
+        "components": {
+          "home_advantage": 21.786076592064912,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-25",
+      "matchup": "STL @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.64474049941757,
+      "bet_amount": 30.77,
+      "reasoning": "Domicile dominant (78%)",
+      "kelly_info": {
+        "amount": 30.77,
+        "fraction": 0.0285965399922342,
+        "kelly_raw": 0.0571930799844684,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.64474049941757,
+        "components": {
+          "home_advantage": 27.14474049941757,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-28",
+      "matchup": "WPG @ BOS",
+      "type": "GAGNANT",
+      "selection": "BOS",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-29",
+      "matchup": "MTL @ BOS",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 75.01878736512967,
+      "bet_amount": 53.8,
+      "reasoning": "Rivalité intense BOS-MTL",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.4562912544175281,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 75.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 21.5,
+          "head_to_head": 17.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-11-30",
+      "matchup": "DET @ DAL",
+      "type": "GAGNANT",
+      "selection": "DAL",
+      "expected_odds": 1.6,
+      "confidence_score": 64.01878736512967,
+      "bet_amount": 21.79,
+      "reasoning": "Domicile dominant (76%)",
+      "kelly_info": {
+        "amount": 21.79,
+        "fraction": 0.02025049820172898,
+        "kelly_raw": 0.04050099640345796,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 64.01878736512967,
+        "components": {
+          "home_advantage": 26.51878736512967,
+          "recent_form": 16.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 2.5
+        },
+        "weights_used": {
+          "home_advantage": 0.35,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.05
+        },
+        "season_progress": 0.16666666666666666
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-01",
+      "matchup": "MTL @ FLA",
+      "type": "GAGNANT",
+      "selection": "FLA",
+      "expected_odds": 1.65,
+      "confidence_score": 62.44199097509262,
+      "bet_amount": 25.07,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 25.07,
+        "fraction": 0.023302193145406297,
+        "kelly_raw": 0.046604386290812594,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 62.44199097509262,
+        "components": {
+          "home_advantage": 18.941990975092622,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-01",
+      "matchup": "MTL @ TOR",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 60.4671915028113,
+      "bet_amount": 53.8,
+      "reasoning": "Rivalité intense TOR-MTL",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.13958005035530482,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 60.4671915028113,
+        "components": {
+          "home_advantage": 14.9671915028113,
+          "recent_form": 17.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-06",
+      "matchup": "MTL @ BOS",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 72.44199097509262,
+      "bet_amount": 53.8,
+      "reasoning": "Rivalité intense BOS-MTL",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.40020803886966294,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 72.44199097509262,
+        "components": {
+          "home_advantage": 18.941990975092622,
+          "recent_form": 21.5,
+          "head_to_head": 17.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-15",
+      "matchup": "MTL @ NJD",
+      "type": "GAGNANT",
+      "selection": "NJD",
+      "expected_odds": 1.65,
+      "confidence_score": 61.06651635861829,
+      "bet_amount": 6.29,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 6.29,
+        "fraction": 0.0058442460901551125,
+        "kelly_raw": 0.011688492180310225,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 61.06651635861829,
+        "components": {
+          "home_advantage": 17.56651635861829,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-18",
+      "matchup": "MTL @ NYR",
+      "type": "GAGNANT",
+      "selection": "NYR",
+      "expected_odds": 1.65,
+      "confidence_score": 61.06651635861829,
+      "bet_amount": 6.29,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 6.29,
+        "fraction": 0.0058442460901551125,
+        "kelly_raw": 0.011688492180310225,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 61.06651635861829,
+        "components": {
+          "home_advantage": 17.56651635861829,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-20",
+      "matchup": "NYR @ NJD",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 56.17869415782989,
+      "bet_amount": 24.88,
+      "reasoning": "Rivalité intense NJD-NYR",
+      "kelly_info": {
+        "amount": 24.88,
+        "fraction": 0.023121083482266457,
+        "kelly_raw": 0.04624216696453291,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 56.17869415782989,
+        "components": {
+          "home_advantage": 15.67869415782989,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-20",
+      "matchup": "MTL @ CAR",
+      "type": "GAGNANT",
+      "selection": "CAR",
+      "expected_odds": 1.65,
+      "confidence_score": 61.06651635861829,
+      "bet_amount": 6.29,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 6.29,
+        "fraction": 0.0058442460901551125,
+        "kelly_raw": 0.011688492180310225,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 61.06651635861829,
+        "components": {
+          "home_advantage": 17.56651635861829,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-21",
+      "matchup": "NYR @ NJD",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 56.17869415782989,
+      "bet_amount": 24.88,
+      "reasoning": "Rivalité intense NJD-NYR",
+      "kelly_info": {
+        "amount": 24.88,
+        "fraction": 0.023121083482266457,
+        "kelly_raw": 0.04624216696453291,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 56.17869415782989,
+        "components": {
+          "home_advantage": 15.67869415782989,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-23",
+      "matchup": "MTL @ COL",
+      "type": "GAGNANT",
+      "selection": "COL",
+      "expected_odds": 1.65,
+      "confidence_score": 70.88910035672683,
+      "bet_amount": 53.8,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.26103100905537335,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 70.88910035672683,
+        "components": {
+          "home_advantage": 19.389100356726836,
+          "recent_form": 21.5,
+          "head_to_head": 15.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-25",
+      "matchup": "NJD @ NYR",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 56.17869415782989,
+      "bet_amount": 24.88,
+      "reasoning": "Rivalité intense NYR-NJD",
+      "kelly_info": {
+        "amount": 24.88,
+        "fraction": 0.023121083482266457,
+        "kelly_raw": 0.04624216696453291,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 56.17869415782989,
+        "components": {
+          "home_advantage": 15.67869415782989,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2025-12-31",
+      "matchup": "MTL @ BOS",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 72.44199097509262,
+      "bet_amount": 53.8,
+      "reasoning": "Rivalité intense BOS-MTL",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.40020803886966294,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 72.44199097509262,
+        "components": {
+          "home_advantage": 18.941990975092622,
+          "recent_form": 21.5,
+          "head_to_head": 17.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.3333333333333333
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-01",
+      "matchup": "CGY @ EDM",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 55.4671915028113,
+      "bet_amount": 16.55,
+      "reasoning": "Rivalité intense EDM-CGY",
+      "kelly_info": {
+        "amount": 16.55,
+        "fraction": 0.015378260471770142,
+        "kelly_raw": 0.030756520943540283,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 55.4671915028113,
+        "components": {
+          "home_advantage": 14.9671915028113,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-04",
+      "matchup": "MTL @ NYR",
+      "type": "GAGNANT",
+      "selection": "NYR",
+      "expected_odds": 1.65,
+      "confidence_score": 61.06651635861829,
+      "bet_amount": 6.29,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 6.29,
+        "fraction": 0.0058442460901551125,
+        "kelly_raw": 0.011688492180310225,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 61.06651635861829,
+        "components": {
+          "home_advantage": 17.56651635861829,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-05",
+      "matchup": "MTL @ TOR",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 60.4671915028113,
+      "bet_amount": 53.8,
+      "reasoning": "Rivalité intense TOR-MTL",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.13958005035530482,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 60.4671915028113,
+        "components": {
+          "home_advantage": 14.9671915028113,
+          "recent_form": 17.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-05",
+      "matchup": "MTL @ FLA",
+      "type": "GAGNANT",
+      "selection": "FLA",
+      "expected_odds": 1.65,
+      "confidence_score": 62.44199097509262,
+      "bet_amount": 25.07,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 25.07,
+        "fraction": 0.023302193145406297,
+        "kelly_raw": 0.046604386290812594,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 62.44199097509262,
+        "components": {
+          "home_advantage": 18.941990975092622,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-08",
+      "matchup": "MTL @ FLA",
+      "type": "GAGNANT",
+      "selection": "FLA",
+      "expected_odds": 1.65,
+      "confidence_score": 62.44199097509262,
+      "bet_amount": 25.07,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 25.07,
+        "fraction": 0.023302193145406297,
+        "kelly_raw": 0.046604386290812594,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 62.44199097509262,
+        "components": {
+          "home_advantage": 18.941990975092622,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-13",
+      "matchup": "NYR @ NJD",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 56.17869415782989,
+      "bet_amount": 24.88,
+      "reasoning": "Rivalité intense NJD-NYR",
+      "kelly_info": {
+        "amount": 24.88,
+        "fraction": 0.023121083482266457,
+        "kelly_raw": 0.04624216696453291,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 56.17869415782989,
+        "components": {
+          "home_advantage": 15.67869415782989,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-14",
+      "matchup": "MTL @ NYR",
+      "type": "GAGNANT",
+      "selection": "NYR",
+      "expected_odds": 1.65,
+      "confidence_score": 61.06651635861829,
+      "bet_amount": 6.29,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 6.29,
+        "fraction": 0.0058442460901551125,
+        "kelly_raw": 0.011688492180310225,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 61.06651635861829,
+        "components": {
+          "home_advantage": 17.56651635861829,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-14",
+      "matchup": "NYR @ NJD",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 56.17869415782989,
+      "bet_amount": 24.88,
+      "reasoning": "Rivalité intense NJD-NYR",
+      "kelly_info": {
+        "amount": 24.88,
+        "fraction": 0.023121083482266457,
+        "kelly_raw": 0.04624216696453291,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 56.17869415782989,
+        "components": {
+          "home_advantage": 15.67869415782989,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-19",
+      "matchup": "MTL @ NYR",
+      "type": "GAGNANT",
+      "selection": "NYR",
+      "expected_odds": 1.65,
+      "confidence_score": 61.06651635861829,
+      "bet_amount": 6.29,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 6.29,
+        "fraction": 0.0058442460901551125,
+        "kelly_raw": 0.011688492180310225,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 61.06651635861829,
+        "components": {
+          "home_advantage": 17.56651635861829,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-27",
+      "matchup": "MTL @ NJD",
+      "type": "GAGNANT",
+      "selection": "NJD",
+      "expected_odds": 1.65,
+      "confidence_score": 61.06651635861829,
+      "bet_amount": 6.29,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 6.29,
+        "fraction": 0.0058442460901551125,
+        "kelly_raw": 0.011688492180310225,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 61.06651635861829,
+        "components": {
+          "home_advantage": 17.56651635861829,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-27",
+      "matchup": "MTL @ BOS",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 72.44199097509262,
+      "bet_amount": 53.8,
+      "reasoning": "Rivalité intense BOS-MTL",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.40020803886966294,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 72.44199097509262,
+        "components": {
+          "home_advantage": 18.941990975092622,
+          "recent_form": 21.5,
+          "head_to_head": 17.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-28",
+      "matchup": "MTL @ CAR",
+      "type": "GAGNANT",
+      "selection": "CAR",
+      "expected_odds": 1.65,
+      "confidence_score": 61.06651635861829,
+      "bet_amount": 6.29,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 6.29,
+        "fraction": 0.0058442460901551125,
+        "kelly_raw": 0.011688492180310225,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 61.06651635861829,
+        "components": {
+          "home_advantage": 17.56651635861829,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-29",
+      "matchup": "MTL @ TOR",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 60.4671915028113,
+      "bet_amount": 53.8,
+      "reasoning": "Rivalité intense TOR-MTL",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.13958005035530482,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 60.4671915028113,
+        "components": {
+          "home_advantage": 14.9671915028113,
+          "recent_form": 17.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-01-31",
+      "matchup": "MTL @ NJD",
+      "type": "GAGNANT",
+      "selection": "NJD",
+      "expected_odds": 1.65,
+      "confidence_score": 61.06651635861829,
+      "bet_amount": 6.29,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 6.29,
+        "fraction": 0.0058442460901551125,
+        "kelly_raw": 0.011688492180310225,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 61.06651635861829,
+        "components": {
+          "home_advantage": 17.56651635861829,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.625
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-02-05",
+      "matchup": "MTL @ BOS",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 72.44199097509262,
+      "bet_amount": 53.8,
+      "reasoning": "Rivalité intense BOS-MTL",
+      "kelly_info": {
+        "amount": 53.8,
+        "fraction": 0.05,
+        "kelly_raw": 0.40020803886966294,
+        "adjustment_factor": 0.6,
+        "confidence_level": "ÉLEVÉE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 72.44199097509262,
+        "components": {
+          "home_advantage": 18.941990975092622,
+          "recent_form": 21.5,
+          "head_to_head": 17.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.75
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-02-09",
+      "matchup": "MTL @ NYR",
+      "type": "GAGNANT",
+      "selection": "NYR",
+      "expected_odds": 1.65,
+      "confidence_score": 61.06651635861829,
+      "bet_amount": 6.29,
+      "reasoning": "Pattern Montreal faiblesse visiteur",
+      "kelly_info": {
+        "amount": 6.29,
+        "fraction": 0.0058442460901551125,
+        "kelly_raw": 0.011688492180310225,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 61.06651635861829,
+        "components": {
+          "home_advantage": 17.56651635861829,
+          "recent_form": 17.5,
+          "head_to_head": 11.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.75
+      },
+      "version": "ENHANCED_V2"
+    },
+    {
+      "date": "2026-02-13",
+      "matchup": "CGY @ EDM",
+      "type": "TOTAL",
+      "selection": "Plus de 6.5 buts",
+      "expected_odds": 1.85,
+      "confidence_score": 55.4671915028113,
+      "bet_amount": 16.55,
+      "reasoning": "Rivalité intense EDM-CGY",
+      "kelly_info": {
+        "amount": 16.55,
+        "fraction": 0.015378260471770142,
+        "kelly_raw": 0.030756520943540283,
+        "adjustment_factor": 0.5,
+        "confidence_level": "MOYENNE"
+      },
+      "confidence_analysis": {
+        "confidence_score": 55.4671915028113,
+        "components": {
+          "home_advantage": 14.9671915028113,
+          "recent_form": 12.5,
+          "head_to_head": 13.0,
+          "external_factors": 7.5,
+          "advanced_analytics": 7.5
+        },
+        "weights_used": {
+          "home_advantage": 0.25,
+          "recent_form": 0.25,
+          "head_to_head": 0.2,
+          "external_factors": 0.15,
+          "advanced_analytics": 0.15
+        },
+        "season_progress": 0.75
+      },
+      "version": "ENHANCED_V2"
+    }
+  ],
+  "metrics": {
+    "total_budget": 2353.66,
+    "projected_roi": 27.4,
+    "max_drawdown": 15.0,
+    "expected_profit": 644.4
+  },
+  "execution_time": 0.32991695404052734,
+  "version": "ENHANCED_V2"
+}

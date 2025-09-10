@@ -1,0 +1,134 @@
+{
+  "system_info": {
+    "version": "v4.8_calendar_optimized",
+    "generation_timestamp": "2025-09-09T15:44:48.136514",
+    "execution_time_seconds": 0.01,
+    "grok_optimizations_applied": true,
+    "real_data_calculations": true
+  },
+  "calendar_summary": {
+    "total_games_analyzed": 9,
+    "quality_recommendations": 3,
+    "selection_rate": 33.3,
+    "average_confidence": 0.63,
+    "average_expected_value": 0.05,
+    "total_potential_profit": 112.8
+  },
+  "weekly_breakdown": {
+    "1": {
+      "games_count": 1,
+      "total_potential_profit": 35.2,
+      "average_confidence": 0.614,
+      "high_priority_bets": 0
+    },
+    "3": {
+      "games_count": 2,
+      "total_potential_profit": 77.6,
+      "average_confidence": 0.639,
+      "high_priority_bets": 0
+    }
+  },
+  "recommendations": [
+    {
+      "game_date": "2025-10-09",
+      "week_of_season": 1,
+      "home_team": "FLA",
+      "away_team": "NYR",
+      "game_time": "19:30",
+      "bet_type": "PROP",
+      "confidence": 0.614,
+      "expected_value": 0.05,
+      "kelly_fraction": 0.0352,
+      "potential_profit": 35.2,
+      "risk_level": "HIGH",
+      "reasoning": "Confidence 61.4%, EV +0.05",
+      "quality_score": 0.276,
+      "odds": 1.71,
+      "calendar_priority": 3
+    },
+    {
+      "game_date": "2025-10-22",
+      "week_of_season": 3,
+      "home_team": "TOR",
+      "away_team": "CAR",
+      "game_time": "19:00",
+      "bet_type": "PROP",
+      "confidence": 0.652,
+      "expected_value": 0.05,
+      "kelly_fraction": 0.0408,
+      "potential_profit": 40.8,
+      "risk_level": "HIGH",
+      "reasoning": "Confidence 65.2%, EV +0.05",
+      "quality_score": 0.291,
+      "odds": 1.61,
+      "calendar_priority": 3
+    },
+    {
+      "game_date": "2025-10-23",
+      "week_of_season": 3,
+      "home_team": "BOS",
+      "away_team": "EDM",
+      "game_time": "19:00",
+      "bet_type": "PROP",
+      "confidence": 0.625,
+      "expected_value": 0.05,
+      "kelly_fraction": 0.0368,
+      "potential_profit": 36.8,
+      "risk_level": "HIGH",
+      "reasoning": "Confidence 62.5%, EV +0.05",
+      "quality_score": 0.28,
+      "odds": 1.68,
+      "calendar_priority": 3
+    }
+  ],
+  "calendar_formats": {
+    "html_calendar": "\n        <!DOCTYPE html>\n        <html>\n        <head>\n            <title>\ud83c\udfd2 Calendrier NHL 2025-26 - Paris Recommand\u00e9s</title>\n            <style>\n                body { font-family: Arial, sans-serif; margin: 20px; }\n                .calendar-header { background: #003366; color: white; padding: 15px; text-align: center; }\n                .week-block { margin: 20px 0; border: 1px solid #ddd; border-radius: 8px; }\n                .week-header { background: #f0f8ff; padding: 10px; font-weight: bold; }\n                .game-row { padding: 12px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }\n                .game-row:hover { background: #f9f9f9; }\n                .game-info { flex: 2; }\n                .bet-info { flex: 1; text-align: center; }\n                .metrics { flex: 1; text-align: right; }\n                .high-priority { border-left: 4px solid #28a745; }\n                .medium-priority { border-left: 4px solid #ffc107; }\n                .low-priority { border-left: 4px solid #dc3545; }\n                .confidence { color: #007bff; font-weight: bold; }\n                .ev-positive { color: #28a745; font-weight: bold; }\n                .profit { color: #6f42c1; font-weight: bold; }\n            </style>\n        </head>\n        <body>\n            <div class=\"calendar-header\">\n                <h1>\ud83c\udfd2 Calendrier NHL 2025-26 - Paris Recommand\u00e9s</h1>\n                <p>Syst\u00e8me v4.8 Optimis\u00e9 | Recommandations Grok v2.4 | Donn\u00e9es R\u00e9elles</p>\n            </div>\n        \n            <div class=\"week-block\">\n                <div class=\"week-header\">\n                    \ud83d\udcc5 Semaine 1 | 1 paris recommand\u00e9s | Profit potentiel: $35.20\n                </div>\n            \n                <div class=\"game-row low-priority\">\n                    <div class=\"game-info\">\n                        <strong>2025-10-09 19:30</strong><br>\n                        \ud83c\udfd2 NYR @ FLA<br>\n                        <small>Confidence 61.4%, EV +0.05</small>\n                    </div>\n                    <div class=\"bet-info\">\n                        <strong>PROP</strong><br>\n                        Risque: HIGH<br>\n                        Kelly: 3.5%\n                    </div>\n                    <div class=\"metrics\">\n                        <div class=\"confidence\">Conf: 61.4%</div>\n                        <div class=\"ev-positive\">EV: +0.05</div>\n                        <div class=\"profit\">Profit: $35.20</div>\n                    </div>\n                </div>\n                </div>\n            <div class=\"week-block\">\n                <div class=\"week-header\">\n                    \ud83d\udcc5 Semaine 3 | 2 paris recommand\u00e9s | Profit potentiel: $77.60\n                </div>\n            \n                <div class=\"game-row low-priority\">\n                    <div class=\"game-info\">\n                        <strong>2025-10-22 19:00</strong><br>\n                        \ud83c\udfd2 CAR @ TOR<br>\n                        <small>Confidence 65.2%, EV +0.05</small>\n                    </div>\n                    <div class=\"bet-info\">\n                        <strong>PROP</strong><br>\n                        Risque: HIGH<br>\n                        Kelly: 4.1%\n                    </div>\n                    <div class=\"metrics\">\n                        <div class=\"confidence\">Conf: 65.2%</div>\n                        <div class=\"ev-positive\">EV: +0.05</div>\n                        <div class=\"profit\">Profit: $40.80</div>\n                    </div>\n                </div>\n                \n                <div class=\"game-row low-priority\">\n                    <div class=\"game-info\">\n                        <strong>2025-10-23 19:00</strong><br>\n                        \ud83c\udfd2 EDM @ BOS<br>\n                        <small>Confidence 62.5%, EV +0.05</small>\n                    </div>\n                    <div class=\"bet-info\">\n                        <strong>PROP</strong><br>\n                        Risque: HIGH<br>\n                        Kelly: 3.7%\n                    </div>\n                    <div class=\"metrics\">\n                        <div class=\"confidence\">Conf: 62.5%</div>\n                        <div class=\"ev-positive\">EV: +0.05</div>\n                        <div class=\"profit\">Profit: $36.80</div>\n                    </div>\n                </div>\n                </div>\n        </body>\n        </html>\n        ",
+    "csv_export": "Date,Semaine,\u00c9quipe Domicile,\u00c9quipe Visiteur,Heure,Type Pari,Confidence,Valeur Attendue,Kelly,Profit Potentiel,Risque,Priorit\u00e9,Raisonnement\\n2025-10-09,1,FLA,NYR,19:30,PROP,0.614,0.050,0.0352,$35.20,HIGH,3,\"Confidence 61.4%, EV +0.05\"\\n2025-10-22,3,TOR,CAR,19:00,PROP,0.652,0.050,0.0408,$40.80,HIGH,3,\"Confidence 65.2%, EV +0.05\"\\n2025-10-23,3,BOS,EDM,19:00,PROP,0.625,0.050,0.0368,$36.80,HIGH,3,\"Confidence 62.5%, EV +0.05\"",
+    "json_simplified": {
+      "nhl_calendar_v48": {
+        "summary": {
+          "total_recommendations": 3,
+          "weeks_covered": 2,
+          "total_potential_profit": 112.8,
+          "high_priority_count": 0
+        },
+        "weekly_calendar": {
+          "semaine_1": [
+            {
+              "date": "2025-10-09",
+              "matchup": "NYR @ FLA",
+              "bet": "PROP",
+              "confidence": "61.4%",
+              "expected_value": "+0.05",
+              "profit_potential": "$35.20",
+              "risk": "HIGH",
+              "priority": 3
+            }
+          ],
+          "semaine_3": [
+            {
+              "date": "2025-10-22",
+              "matchup": "CAR @ TOR",
+              "bet": "PROP",
+              "confidence": "65.2%",
+              "expected_value": "+0.05",
+              "profit_potential": "$40.80",
+              "risk": "HIGH",
+              "priority": 3
+            },
+            {
+              "date": "2025-10-23",
+              "matchup": "EDM @ BOS",
+              "bet": "PROP",
+              "confidence": "62.5%",
+              "expected_value": "+0.05",
+              "profit_potential": "$36.80",
+              "risk": "HIGH",
+              "priority": 3
+            }
+          ]
+        }
+      }
+    }
+  }
+}

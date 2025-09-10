@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎼 Go Habs Go ! Maestro NHL Betting</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <style>
+    .habs-gradient {
+      background: linear-gradient(135deg, #af1e2d 0%, #192168 100%);
+    }
+    .grok-card {
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+    .grok-card:hover {
+      transform: translateY(-3px);
+      border-color: #af1e2d;
+      box-shadow: 0 8px 25px rgba(175, 30, 45, 0.4);
+    }
+    .pari-vert {
+      background: linear-gradient(45deg, #10b981, #34d399);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.85; }
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <div class="container mx-auto p-4">
+    <!-- Header avec logo MTL comme Grok -->
+    <div class="habs-gradient rounded-2xl p-8 mb-8 text-center">
+      <h1 class="text-4xl font-bold mb-4 flex items-center justify-center">
+        <img src="https://www-league.nhlstatic.com/nhl.com/builds/site-core/d5e66e4bf277b8a8f8e8b157c9e4a496e6c8c753_0/images/logos/team/current/team-10-dark.svg" 
+             alt="MTL Logo" class="w-12 h-12 mr-2" />
+        🎼 Go Habs Go ! Maestro App
+      </h1>
+      <p class="text-xl opacity-90">Conducteur d'Orchestre IA par Grok</p>
+      <div id="stats" class="text-center text-lg mt-4 font-bold"></div>
+    </div>
+
+    <!-- Interface simplifiée comme Grok l'a conçue -->
+    <div class="bg-gray-800 rounded-xl p-6 mb-6 grok-card">
+      <h2 class="text-2xl font-bold mb-4 text-center">🎯 Une Seule Question : PARI OU PAS ?</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+        <input id="date" type="date" value="2024-09-22" 
+               class="p-3 bg-gray-700 rounded text-white w-full border-2 border-gray-600 focus:border-red-500" />
+        <input id="game_id" type="text" placeholder="Game ID (ex. 2025020001)" 
+               class="p-3 bg-gray-700 rounded text-white w-full border-2 border-gray-600 focus:border-red-500" />
+        <input id="team" type="text" placeholder="Équipe (ex. MTL)" 
+               class="p-3 bg-gray-700 rounded text-white w-full border-2 border-gray-600 focus:border-red-500" />
+      </div>
+      
+      <button onclick="getPrediction()" 
+              class="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg w-full text-xl font-bold transition-all transform hover:scale-105">
+        🚀 MAESTRO, DONNE-MOI LA RÉPONSE !
+      </button>
+    </div>
+
+    <!-- Zone de prédiction -->
+    <div id="predictions" class="mb-6"></div>
+    
+    <!-- Instructions Grok -->
+    <div class="bg-gray-800 rounded-xl p-6 grok-card">
+      <h3 class="text-lg font-bold mb-3">📋 Mode d'Emploi Grok (Hyper Simple)</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+        <div>
+          <p class="font-bold text-green-400 mb-2">✅ Étapes :</p>
+          <ol class="list-decimal list-inside text-gray-300 space-y-1">
+            <li>Entrez la date du match</li>
+            <li>Game ID NHL (trouvez sur nhl.com)</li>
+            <li>Code équipe (MTL, BOS, TOR, etc.)</li>
+            <li>Cliquez le bouton magique !</li>
+          </ol>
+        </div>
+        <div>
+          <p class="font-bold text-blue-400 mb-2">🎯 Grok dit :</p>
+          <ul class="list-disc list-inside text-gray-300 space-y-1">
+            <li>🚀 Vert = PARI RECOMMANDÉ (EV > 5%)</li>
+            <li>🤔 Jaune = Risqué (EV 0-5%)</li>
+            <li>❌ Rouge = Skip ce pari (EV < 0%)</li>
+            <li>Max 3% bankroll ($1,768.84)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function updateStats() {
+      axios.get('http://localhost:5004/api/roi')
+        .then(res => {
+          const data = res.data;
+          const roiColor = data.roi >= 15 ? 'text-green-400' : data.roi >= 0 ? 'text-yellow-400' : 'text-red-400';
+          document.getElementById('stats').innerHTML = `
+            <span class="${roiColor}">ROI: ${data.roi.toFixed(1)}%</span> | 
+            <span class="text-blue-400">Balance: $${data.balance.toFixed(2)}</span> |
+            <span class="text-gray-300">Misé: $${data.total_bet?.toFixed(2) || '0.00'}</span>
+          `;
+        })
+        .catch(() => {
+          document.getElementById('stats').innerHTML = 
+            '<span class="text-blue-400">ROI: -- | Balance: $1,768.84</span>';
+        });
+    }
+
+    function getPrediction() {
+      const date = document.getElementById('date').value;
+      const game_id = document.getElementById('game_id').value;
+      const team = document.getElementById('team').value;
+      
+      if (!date || !game_id || !team) {
+        alert('⚠️ Maestro a besoin de tous les détails !');
+        return;
+      }
+      
+      const button = event.target;
+      button.textContent = '🎼 L\'orchestre IA joue...';
+      button.disabled = true;
+      
+      axios.get(`http://localhost:5004/api/predict/${date}/${game_id}/${team}`)
+        .then(res => {
+          const pred = res.data;
+          const isRecommended = pred.ev > 0.05;
+          const isRisky = pred.ev > 0 && pred.ev <= 0.05;
+          
+          let cardClass, recommendation, emoji;
+          if (isRecommended) {
+            cardClass = 'pari-vert text-white';
+            recommendation = '🚀 PARI RECOMMANDÉ !';
+            emoji = '🚀';
+          } else if (isRisky) {
+            cardClass = 'bg-yellow-600 text-white';
+            recommendation = '🤔 Pari risqué...';
+            emoji = '🤔';
+          } else {
+            cardClass = 'bg-red-600 text-white';
+            recommendation = '❌ Skip ce pari !';
+            emoji = '❌';
+          }
+          
+          const card = `
+            <div class="grok-card ${cardClass} p-8 rounded-2xl shadow-2xl text-center">
+              <h2 class="text-5xl font-bold mb-4">${pred.team} ${emoji}</h2>
+              
+              <div class="text-3xl font-bold mb-6">${recommendation}</div>
+              
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                <div class="bg-black bg-opacity-20 p-4 rounded-lg">
+                  <p class="text-sm opacity-75 mb-1">PROBABILITÉ</p>
+                  <p class="text-2xl font-bold">${(pred.prob * 100).toFixed(1)}%</p>
+                </div>
+                <div class="bg-black bg-opacity-20 p-4 rounded-lg">
+                  <p class="text-sm opacity-75 mb-1">COTE LIVE</p>
+                  <p class="text-2xl font-bold">${pred.odds.toFixed(2)}</p>
+                </div>
+                <div class="bg-black bg-opacity-20 p-4 rounded-lg">
+                  <p class="text-sm opacity-75 mb-1">EV</p>
+                  <p class="text-2xl font-bold">${(pred.ev * 100).toFixed(1)}%</p>
+                </div>
+                <div class="bg-black bg-opacity-20 p-4 rounded-lg">
+                  <p class="text-sm opacity-75 mb-1">MISE</p>
+                  <p class="text-2xl font-bold">$${pred.bet.toFixed(2)}</p>
+                </div>
+              </div>
+              
+              <div class="flex justify-center space-x-4">
+                <button onclick="addResult('${pred.game_id}', 1)" 
+                        class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-bold text-lg transition-all">
+                  ✅ GAGNÉ
+                </button>
+                <button onclick="addResult('${pred.game_id}', 0)" 
+                        class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-bold text-lg transition-all">
+                  ❌ PERDU
+                </button>
+              </div>
+              
+              <div class="mt-4 text-sm opacity-75">
+                Match: ${pred.date} | ID: ${pred.game_id}
+              </div>
+            </div>
+          `;
+          
+          document.getElementById('predictions').innerHTML = card;
+          updateStats();
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          document.getElementById('predictions').innerHTML = `
+            <div class="bg-red-600 p-6 rounded-xl text-center text-white">
+              <h3 class="text-xl font-bold mb-2">❌ Erreur Maestro</h3>
+              <p>L'orchestre a une fausse note... Vérifiez les paramètres !</p>
+              <p class="text-sm mt-2 opacity-75">Assurez-vous que l'app backend tourne sur localhost:5004</p>
+            </div>
+          `;
+        })
+        .finally(() => {
+          button.textContent = '🚀 MAESTRO, DONNE-MOI LA RÉPONSE !';
+          button.disabled = false;
+        });
+    }
+
+    function addResult(game_id, result) {
+      axios.get(`http://localhost:5004/api/result/${game_id}/${result}`)
+        .then(() => {
+          const resultText = result === 1 ? '🎉 VICTOIRE' : '😢 DÉFAITE';
+          alert(`🎼 Résultat du maestro : ${resultText} !`);
+          updateStats();
+          
+          // Petit easter egg Grok
+          if (result === 1) {
+            document.body.style.background = 'linear-gradient(45deg, #10b981, #34d399)';
+            setTimeout(() => {
+              document.body.style.background = '';
+            }, 2000);
+          }
+        })
+        .catch(() => alert('❌ Erreur lors de l\'enregistrement du résultat'));
+    }
+
+    // Initialize stats
+    updateStats();
+    
+    // Easter egg : message de Grok
+    console.log('🎼 Maestro NHL App by Grok');
+    console.log('💡 "Pas besoin d\'être Beethoven pour conduire cet orchestre IA !" - Grok 2024');
+  </script>
+</body>
+</html>

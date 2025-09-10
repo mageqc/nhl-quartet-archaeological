@@ -1,0 +1,29 @@
+{
+  "system_info": {
+    "version": "v4.8_calendar_optimized",
+    "generation_timestamp": "2025-09-09T15:43:41.585631",
+    "execution_time_seconds": 0.03,
+    "grok_optimizations_applied": true,
+    "real_data_calculations": true
+  },
+  "calendar_summary": {
+    "total_games_analyzed": 9,
+    "quality_recommendations": 0,
+    "selection_rate": 0.0,
+    "average_confidence": 0,
+    "average_expected_value": 0,
+    "total_potential_profit": 0
+  },
+  "weekly_breakdown": {},
+  "recommendations": [],
+  "calendar_formats": {
+    "html_calendar": "<p>Aucune recommandation disponible.</p>",
+    "csv_export": "Aucune donn\u00e9e disponible",
+    "json_simplified": {
+      "nhl_calendar": {
+        "recommendations": [],
+        "count": 0
+      }
+    }
+  }
+}

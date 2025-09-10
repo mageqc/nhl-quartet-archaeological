@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Connor McDavid questionable pour le match d'ouverture",
+    "source": "TSN",
+    "timestamp": "2025-09-06 21:55:39.376710",
+    "impact": "HIGH",
+    "teams_affected": [
+      "EDM"
+    ],
+    "category": "injury",
+    "summary": "Blessure mineure au poignet, statut incertain"
+  },
+  {
+    "title": "Échange majeur: Winnipeg acquiert un défenseur",
+    "source": "Sportsnet",
+    "timestamp": "2025-09-06 17:55:39.376721",
+    "impact": "MEDIUM",
+    "teams_affected": [
+      "WPG"
+    ],
+    "category": "trade",
+    "summary": "Renforcement défensif avant le début de saison"
+  }
+]

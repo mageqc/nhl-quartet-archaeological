@@ -1,0 +1,77 @@
+{
+  "total_analyzed": 3,
+  "opportunities_found": 3,
+  "elite_opportunities": [
+    {
+      "game_id": "BOS@COL_2025-12-20",
+      "home_team": "COL",
+      "away_team": "BOS",
+      "game_date": "2025-12-20",
+      "composite_confidence": 0.9,
+      "expected_value": 0.3639214881831586,
+      "kelly_fraction": 0.08,
+      "grade": "TRÈS_BON",
+      "recommendation": "MODERATE_BET",
+      "criteria_passed": 5,
+      "total_criteria": 6,
+      "ea_simulation_reliability": 0.786,
+      "data_sources": {
+        "home_data_source": "FAIL_SAFE_NEUTRAL",
+        "away_data_source": "FAIL_SAFE_NEUTRAL",
+        "game_context_source": "ESTIMATED_NEUTRAL",
+        "live_verified": false
+      },
+      "live_verified": false,
+      "strong_factors": [],
+      "analysis_timestamp": "2025-09-09T16:45:56.916722"
+    },
+    {
+      "game_id": "EDM@TOR_2025-12-15",
+      "home_team": "TOR",
+      "away_team": "EDM",
+      "game_date": "2025-12-15",
+      "composite_confidence": 0.9,
+      "expected_value": 0.4376596792716762,
+      "kelly_fraction": 0.08,
+      "grade": "TRÈS_BON",
+      "recommendation": "MODERATE_BET",
+      "criteria_passed": 5,
+      "total_criteria": 6,
+      "ea_simulation_reliability": 0.732,
+      "data_sources": {
+        "home_data_source": "FAIL_SAFE_NEUTRAL",
+        "away_data_source": "FAIL_SAFE_NEUTRAL",
+        "game_context_source": "ESTIMATED_NEUTRAL",
+        "live_verified": false
+      },
+      "live_verified": false,
+      "strong_factors": [],
+      "analysis_timestamp": "2025-09-09T16:45:56.916962"
+    },
+    {
+      "game_id": "CGY@VEG_2025-01-08",
+      "home_team": "VEG",
+      "away_team": "CGY",
+      "game_date": "2025-01-08",
+      "composite_confidence": 0.9,
+      "expected_value": 0.4150517943443843,
+      "kelly_fraction": 0.08,
+      "grade": "TRÈS_BON",
+      "recommendation": "MODERATE_BET",
+      "criteria_passed": 5,
+      "total_criteria": 6,
+      "ea_simulation_reliability": 0.786,
+      "data_sources": {
+        "home_data_source": "FAIL_SAFE_NEUTRAL",
+        "away_data_source": "FAIL_SAFE_NEUTRAL",
+        "game_context_source": "ESTIMATED_NEUTRAL",
+        "live_verified": false
+      },
+      "live_verified": false,
+      "strong_factors": [],
+      "analysis_timestamp": "2025-09-09T16:45:56.917141"
+    }
+  ],
+  "analysis_method": "LIVE_VERIFIED_NO_BIAS",
+  "chatgpt_corrections_applied": true
+}

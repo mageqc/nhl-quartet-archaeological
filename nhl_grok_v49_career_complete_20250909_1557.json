@@ -1,0 +1,330 @@
+{
+  "system_info": {
+    "version": "v4.9_grok_career_stats",
+    "generation_timestamp": "2025-09-09T15:57:15.987759",
+    "execution_time_seconds": 0.008,
+    "grok_v24_implementation": true,
+    "career_stats_enabled": true,
+    "ea_sports_simulation": true,
+    "fun_transcendant_level": 12
+  },
+  "grok_summary": {
+    "total_games_analyzed": 10,
+    "quality_recommendations": 0,
+    "selection_rate": 0.0,
+    "average_confidence": 0,
+    "average_expected_value": 0,
+    "total_potential_profit": 0,
+    "average_veteran_percentage": 0,
+    "career_stats_impact": "+0 \u00e9quipes v\u00e9t\u00e9rans analys\u00e9es"
+  },
+  "ea_sports_simulations": [
+    {
+      "final_score": "TOR 0-1 BOS",
+      "winner": "BOS",
+      "home_goals": 0,
+      "away_goals": 1,
+      "total_goals": 1,
+      "home_win_probability": 0.512,
+      "simulation_log": [
+        "P1: TOR 0-0 BOS | Shots: 10-3",
+        "P2: TOR 0-1 BOS | Shots: 8-11",
+        "P3: TOR 0-0 BOS | Shots: 9-10"
+      ],
+      "home_metrics": {
+        "offense_rating": 0.471,
+        "goalie_rating": 0.91,
+        "veteran_percentage": 0.8,
+        "average_rating": 92.5,
+        "variance_stability": -0.4,
+        "season_matrix": {
+          "month": 10,
+          "progress": 0.0,
+          "stability": 0.3,
+          "home_advantage_boost": 1.35,
+          "career_weight": 0.5,
+          "xg_reliability": 0.6,
+          "variance_multiplier": 1.4,
+          "fan_cheer": "Season start HYPE!"
+        }
+      },
+      "away_metrics": {
+        "offense_rating": 0.607,
+        "goalie_rating": 0.93,
+        "veteran_percentage": 0.9,
+        "average_rating": 96.0,
+        "variance_stability": -0.4,
+        "season_matrix": {
+          "month": 10,
+          "progress": 0.0,
+          "stability": 0.3,
+          "home_advantage_boost": 1.35,
+          "career_weight": 0.5,
+          "xg_reliability": 0.6,
+          "variance_multiplier": 1.4,
+          "fan_cheer": "Season start HYPE!"
+        }
+      },
+      "season_matrix": {
+        "month": 10,
+        "progress": 0.0,
+        "stability": 0.3,
+        "home_advantage_boost": 1.35,
+        "career_weight": 0.5,
+        "xg_reliability": 0.6,
+        "variance_multiplier": 1.4,
+        "fan_cheer": "Season start HYPE!"
+      },
+      "fan_intensity": 0.16666666666666666,
+      "ea_sports_rating": "SOLID GAME!"
+    },
+    {
+      "final_score": "EDM 2-0 COL",
+      "winner": "EDM",
+      "home_goals": 2,
+      "away_goals": 0,
+      "total_goals": 2,
+      "home_win_probability": 0.629,
+      "simulation_log": [
+        "P1: EDM 1-0 COL | Shots: 11-6",
+        "P2: EDM 0-0 COL | Shots: 7-3",
+        "P3: EDM 1-0 COL | Shots: 11-9"
+      ],
+      "home_metrics": {
+        "offense_rating": 0.599,
+        "goalie_rating": 0.905,
+        "veteran_percentage": 0.7,
+        "average_rating": 99.0,
+        "variance_stability": -0.4,
+        "season_matrix": {
+          "month": 10,
+          "progress": 0.0,
+          "stability": 0.3,
+          "home_advantage_boost": 1.35,
+          "career_weight": 0.5,
+          "xg_reliability": 0.6,
+          "variance_multiplier": 1.4,
+          "fan_cheer": "Season start HYPE!"
+        }
+      },
+      "away_metrics": {
+        "offense_rating": 0.531,
+        "goalie_rating": 0.905,
+        "veteran_percentage": 0.75,
+        "average_rating": 94.0,
+        "variance_stability": -0.4,
+        "season_matrix": {
+          "month": 10,
+          "progress": 0.0,
+          "stability": 0.3,
+          "home_advantage_boost": 1.35,
+          "career_weight": 0.5,
+          "xg_reliability": 0.6,
+          "variance_multiplier": 1.4,
+          "fan_cheer": "Season start HYPE!"
+        }
+      },
+      "season_matrix": {
+        "month": 10,
+        "progress": 0.0,
+        "stability": 0.3,
+        "home_advantage_boost": 1.35,
+        "career_weight": 0.5,
+        "xg_reliability": 0.6,
+        "variance_multiplier": 1.4,
+        "fan_cheer": "Season start HYPE!"
+      },
+      "fan_intensity": 0.3333333333333333,
+      "ea_sports_rating": "SOLID GAME!"
+    },
+    {
+      "final_score": "BOS 3-0 TOR",
+      "winner": "BOS",
+      "home_goals": 3,
+      "away_goals": 0,
+      "total_goals": 3,
+      "home_win_probability": 0.628,
+      "simulation_log": [
+        "P1: BOS 1-0 TOR | Shots: 14-7",
+        "P2: BOS 1-0 TOR | Shots: 10-10",
+        "P3: BOS 1-0 TOR | Shots: 17-6"
+      ],
+      "home_metrics": {
+        "offense_rating": 0.735,
+        "goalie_rating": 0.93,
+        "veteran_percentage": 0.9,
+        "average_rating": 96.0,
+        "variance_stability": -0.2,
+        "season_matrix": {
+          "month": 11,
+          "progress": 0.17,
+          "stability": 0.5,
+          "home_advantage_boost": 1.25,
+          "career_weight": 0.6,
+          "xg_reliability": 0.7,
+          "variance_multiplier": 1.2,
+          "fan_cheer": "Getting into rhythm!"
+        }
+      },
+      "away_metrics": {
+        "offense_rating": 0.572,
+        "goalie_rating": 0.91,
+        "veteran_percentage": 0.8,
+        "average_rating": 92.5,
+        "variance_stability": -0.2,
+        "season_matrix": {
+          "month": 11,
+          "progress": 0.17,
+          "stability": 0.5,
+          "home_advantage_boost": 1.25,
+          "career_weight": 0.6,
+          "xg_reliability": 0.7,
+          "variance_multiplier": 1.2,
+          "fan_cheer": "Getting into rhythm!"
+        }
+      },
+      "season_matrix": {
+        "month": 11,
+        "progress": 0.17,
+        "stability": 0.5,
+        "home_advantage_boost": 1.25,
+        "career_weight": 0.6,
+        "xg_reliability": 0.7,
+        "variance_multiplier": 1.2,
+        "fan_cheer": "Getting into rhythm!"
+      },
+      "fan_intensity": 0.5,
+      "ea_sports_rating": "SOLID GAME!"
+    },
+    {
+      "final_score": "PHI 0-1 SJS",
+      "winner": "SJS",
+      "home_goals": 0,
+      "away_goals": 1,
+      "total_goals": 1,
+      "home_win_probability": 0.589,
+      "simulation_log": [
+        "P1: PHI 0-0 SJS | Shots: 4-5",
+        "P2: PHI 0-0 SJS | Shots: 3-1",
+        "P3: PHI 0-0 SJS | Shots: 7-6",
+        "OT: AWAY WIN"
+      ],
+      "home_metrics": {
+        "offense_rating": 0.382,
+        "goalie_rating": 0.91,
+        "veteran_percentage": 0.3,
+        "average_rating": 88.0,
+        "variance_stability": -0.2,
+        "season_matrix": {
+          "month": 11,
+          "progress": 0.17,
+          "stability": 0.5,
+          "home_advantage_boost": 1.25,
+          "career_weight": 0.6,
+          "xg_reliability": 0.7,
+          "variance_multiplier": 1.2,
+          "fan_cheer": "Getting into rhythm!"
+        }
+      },
+      "away_metrics": {
+        "offense_rating": 0.333,
+        "goalie_rating": 0.905,
+        "veteran_percentage": 0.2,
+        "average_rating": 84.5,
+        "variance_stability": -0.2,
+        "season_matrix": {
+          "month": 11,
+          "progress": 0.17,
+          "stability": 0.5,
+          "home_advantage_boost": 1.25,
+          "career_weight": 0.6,
+          "xg_reliability": 0.7,
+          "variance_multiplier": 1.2,
+          "fan_cheer": "Getting into rhythm!"
+        }
+      },
+      "season_matrix": {
+        "month": 11,
+        "progress": 0.17,
+        "stability": 0.5,
+        "home_advantage_boost": 1.25,
+        "career_weight": 0.6,
+        "xg_reliability": 0.7,
+        "variance_multiplier": 1.2,
+        "fan_cheer": "Getting into rhythm!"
+      },
+      "fan_intensity": 0.16666666666666666,
+      "ea_sports_rating": "SOLID GAME!"
+    },
+    {
+      "final_score": "COL 1-0 EDM",
+      "winner": "COL",
+      "home_goals": 1,
+      "away_goals": 0,
+      "total_goals": 1,
+      "home_win_probability": 0.535,
+      "simulation_log": [
+        "P1: COL 0-0 EDM | Shots: 6-9",
+        "P2: COL 1-0 EDM | Shots: 12-5",
+        "P3: COL 0-0 EDM | Shots: 11-9"
+      ],
+      "home_metrics": {
+        "offense_rating": 0.751,
+        "goalie_rating": 0.905,
+        "veteran_percentage": 0.75,
+        "average_rating": 94.0,
+        "variance_stability": -0.1,
+        "season_matrix": {
+          "month": 12,
+          "progress": 0.33,
+          "stability": 0.7,
+          "home_advantage_boost": 1.15,
+          "career_weight": 0.65,
+          "xg_reliability": 0.8,
+          "variance_multiplier": 1.1,
+          "fan_cheer": "Mid-season groove!"
+        }
+      },
+      "away_metrics": {
+        "offense_rating": 0.833,
+        "goalie_rating": 0.905,
+        "veteran_percentage": 0.7,
+        "average_rating": 99.0,
+        "variance_stability": -0.1,
+        "season_matrix": {
+          "month": 12,
+          "progress": 0.33,
+          "stability": 0.7,
+          "home_advantage_boost": 1.15,
+          "career_weight": 0.65,
+          "xg_reliability": 0.8,
+          "variance_multiplier": 1.1,
+          "fan_cheer": "Mid-season groove!"
+        }
+      },
+      "season_matrix": {
+        "month": 12,
+        "progress": 0.33,
+        "stability": 0.7,
+        "home_advantage_boost": 1.15,
+        "career_weight": 0.65,
+        "xg_reliability": 0.8,
+        "variance_multiplier": 1.1,
+        "fan_cheer": "Mid-season groove!"
+      },
+      "fan_intensity": 0.16666666666666666,
+      "ea_sports_rating": "SOLID GAME!"
+    }
+  ],
+  "season_progression_analysis": {},
+  "recommendations": [],
+  "grok_exports": {
+    "simplified_json": {
+      "grok_nhl_v49": {
+        "recommendations": [],
+        "count": 0
+      }
+    },
+    "career_stats_summary": {}
+  }
+}
